@@ -1,0 +1,876 @@
+{
+  "asOf": "2026-11-09",
+  "newestFiling": "2026-11-06",
+  "definition": "A cluster buy is 2+ insiders buying the same company on the open market (SEC Form 4, code P) within 30 days.",
+  "primarySource": "XOOMAR cluster table, SEC EDGAR Form 4 filings, as of 2026-11-06",
+  "primarySourceUrl": "https://staging.xoomar.com/markets/insiders",
+  "clusters": [
+    {
+      "ticker": "RAPP",
+      "company": "Rapport Therapeutics, Inc.",
+      "insiderCount": 7,
+      "tradeCount": 11,
+      "totalValueUsd": 22000000,
+      "latestDate": "2026-10-28",
+      "window": "Oct 21 \u2013 Oct 28, 2026",
+      "buyers": [
+        {
+          "name": "James Healy",
+          "role": "Director",
+          "amountUsd": 20000000
+        },
+        {
+          "name": "Steven M. Paul",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "John Maraganore",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Troy A. Ignelzi",
+          "role": "Chief Financial Officer",
+          "amountUsd": null
+        },
+        {
+          "name": "Wendy B. Young",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "7 insiders in total; 2 further buyers are named in the source filing list."
+    },
+    {
+      "ticker": "UPBD",
+      "company": "Upbound Group, Inc.",
+      "insiderCount": 7,
+      "tradeCount": 9,
+      "totalValueUsd": 1400000,
+      "latestDate": "2026-11-03",
+      "window": "Oct 27 \u2013 Nov 3, 2026",
+      "buyers": [
+        {
+          "name": "Jeffrey J. Brown",
+          "role": "Director",
+          "amountUsd": 438000
+        },
+        {
+          "name": "Glenn P. Marino",
+          "role": "Director",
+          "amountUsd": 393000
+        },
+        {
+          "name": "Halim Khouri",
+          "role": "Chief Financial Officer",
+          "amountUsd": 251000
+        },
+        {
+          "name": "Fahmi Karam",
+          "role": "Chief Executive Officer",
+          "amountUsd": 100000
+        },
+        {
+          "name": "Rebecca Wooters",
+          "role": "EVP, Chief Growth Officer",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "7 insiders in total; 2 further buyers are named in the source filing list. Per-buyer amounts from InsiderPrint."
+    },
+    {
+      "ticker": "BBT",
+      "company": "Beacon Financial Corp",
+      "insiderCount": 7,
+      "tradeCount": 7,
+      "totalValueUsd": 280000,
+      "latestDate": "2026-10-30",
+      "window": "Oct 26 \u2013 Oct 30, 2026",
+      "buyers": [
+        {
+          "name": "Thomas J. Hollister",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Mary Anne Callahan",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Karyn Polito",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Eric S. Rosengren",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Nina A. Charnley",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "7 insiders in total; 2 further buyers are named in the source filing list."
+    },
+    {
+      "ticker": "STC",
+      "company": "Stewart Information Services Corp",
+      "insiderCount": 5,
+      "tradeCount": 6,
+      "totalValueUsd": 461000,
+      "latestDate": "2026-10-26",
+      "window": "Oct 23 \u2013 Oct 26, 2026",
+      "buyers": [
+        {
+          "name": "Frederick H. Eppinger",
+          "role": "Chief Executive Officer",
+          "amountUsd": null
+        },
+        {
+          "name": "Thomas G. Apel",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "C. Allen Bradley Jr.",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "William S. Corey Jr.",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Deborah Jane Matz",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "ASPE",
+      "company": "Aspen Neuroscience, Inc.",
+      "insiderCount": 4,
+      "tradeCount": 5,
+      "totalValueUsd": 68000000,
+      "latestDate": "2026-11-02",
+      "window": "Nov 2, 2026",
+      "buyers": [
+        {
+          "name": "ARCH Venture Fund X, L.P.",
+          "role": "10% owner",
+          "amountUsd": 20000000
+        },
+        {
+          "name": "ARCH Venture Partners XIV, L.P.",
+          "role": "10% owner",
+          "amountUsd": 18000000
+        },
+        {
+          "name": "OrbiMed Advisors LLC",
+          "role": "Director, 10% owner",
+          "amountUsd": 15000000
+        },
+        {
+          "name": "Peter A. Thompson",
+          "role": "Director, 10% owner",
+          "amountUsd": 15000000
+        }
+      ],
+      "source": "InsiderPrint \u2014 cluster buys, Nov 6, 2026",
+      "sourceUrl": "https://www.insiderprint.com/cluster-buys",
+      "note": "Total and per-buyer amounts from InsiderPrint ($68.0M). XOOMAR lists $53.0M for the same cluster \u2014 trackers count related 10% holders differently."
+    },
+    {
+      "ticker": "NPB",
+      "company": "Northpointe Bancshares Inc",
+      "insiderCount": 4,
+      "tradeCount": 5,
+      "totalValueUsd": 1800000,
+      "latestDate": "2026-10-28",
+      "window": "Oct 23 \u2013 Oct 28, 2026",
+      "buyers": [
+        {
+          "name": "Charles Alan Williams",
+          "role": "Chairman & CEO",
+          "amountUsd": null
+        },
+        {
+          "name": "Carrie L. Boer",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Joseph B. Long",
+          "role": "Chief Operating Officer",
+          "amountUsd": null
+        },
+        {
+          "name": "Rajeev Kumar Chaudhary",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "MTDR",
+      "company": "Matador Resources Co",
+      "insiderCount": 4,
+      "tradeCount": 4,
+      "totalValueUsd": 224000,
+      "latestDate": "2026-11-05",
+      "window": "Nov 5, 2026",
+      "buyers": [
+        {
+          "name": "Christopher P. Calvert",
+          "role": "EVP and CFO",
+          "amountUsd": 105000
+        },
+        {
+          "name": "Bryan A. Erman",
+          "role": "President",
+          "amountUsd": 46000
+        },
+        {
+          "name": "William Thomas Elsener",
+          "role": "EVP, Reservoir Engineering",
+          "amountUsd": 46000
+        },
+        {
+          "name": "Benjamin T. Colodney",
+          "role": "SVP & Chief Accounting Officer",
+          "amountUsd": 26000
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Per-buyer amounts from InsiderPrint."
+    },
+    {
+      "ticker": "TBBK",
+      "company": "Bancorp, Inc.",
+      "insiderCount": 4,
+      "tradeCount": 5,
+      "totalValueUsd": 93000,
+      "latestDate": "2026-11-04",
+      "window": "Oct 26 \u2013 Nov 4, 2026",
+      "buyers": [
+        {
+          "name": "Stephanie B. Mudick",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Matthew Cohn",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Dominic C. Canuso",
+          "role": "EVP & Chief Financial Officer",
+          "amountUsd": null
+        },
+        {
+          "name": "Mark E. Tryniski",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "CHCO",
+      "company": "City Holding Co",
+      "insiderCount": 4,
+      "tradeCount": 4,
+      "totalValueUsd": 68000,
+      "latestDate": "2026-10-23",
+      "window": "Oct 23, 2026",
+      "buyers": [
+        {
+          "name": "Robert D. Fisher",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Diane W. Strong-Treister",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "James A. Hoyer",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Javier A. Reyes",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "BBTX",
+      "company": "Bambusa Therapeutics, Inc.",
+      "insiderCount": 3,
+      "tradeCount": 5,
+      "totalValueUsd": 58600000,
+      "latestDate": "2026-11-02",
+      "window": "Oct 30 \u2013 Nov 2, 2026",
+      "buyers": [
+        {
+          "name": "RA Capital Management, L.P.",
+          "role": "Director, 10% owner",
+          "amountUsd": 46600000
+        },
+        {
+          "name": "Helmut Wolfgang Jeggle",
+          "role": "Director, 10% owner",
+          "amountUsd": 6000000
+        },
+        {
+          "name": "Salvia Investment GmbH",
+          "role": "10% owner",
+          "amountUsd": 6000000
+        }
+      ],
+      "source": "InsiderPrint \u2014 cluster buys, Nov 6, 2026",
+      "sourceUrl": "https://www.insiderprint.com/cluster-buys",
+      "note": "Total and per-buyer amounts from InsiderPrint ($58.6M). XOOMAR lists $52.6M for the same cluster."
+    },
+    {
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "insiderCount": 3,
+      "tradeCount": 15,
+      "totalValueUsd": 15700000,
+      "latestDate": "2026-10-27",
+      "window": "Sep 29 \u2013 Oct 27, 2026",
+      "buyers": [
+        {
+          "name": "Ramin Kamfar",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Jordan B. Ruddy",
+          "role": "President",
+          "amountUsd": null
+        },
+        {
+          "name": "Ryan S. MacDonald",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "RENT",
+      "company": "Rent the Runway, Inc.",
+      "insiderCount": 3,
+      "tradeCount": 2,
+      "totalValueUsd": 3900000,
+      "latestDate": "2026-10-21",
+      "window": "Oct 21, 2026",
+      "buyers": [
+        {
+          "name": "Nexus Capital Management LP",
+          "role": "Director, 10% owner",
+          "amountUsd": null
+        },
+        {
+          "name": "STORY3 Capital Partners, LLC",
+          "role": "Director, 10% owner",
+          "amountUsd": null
+        },
+        {
+          "name": "CHS US Investments LLC",
+          "role": "10% owner",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "AN",
+      "company": "AutoNation, Inc.",
+      "insiderCount": 3,
+      "tradeCount": 7,
+      "totalValueUsd": 1400000,
+      "latestDate": "2026-11-03",
+      "window": "Nov 2 \u2013 Nov 3, 2026",
+      "buyers": [
+        {
+          "name": "Michael Mark Manley",
+          "role": "CEO and Director",
+          "amountUsd": 1000000
+        },
+        {
+          "name": "Thomas A. Szlosek",
+          "role": "EVP & CFO",
+          "amountUsd": 300000
+        },
+        {
+          "name": "C. Coleman Edmunds",
+          "role": "EVP, General Counsel & Corporate Secretary",
+          "amountUsd": 101000
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Per-buyer amounts from InsiderPrint."
+    },
+    {
+      "ticker": "LKQ",
+      "company": "LKQ Corp",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 793000,
+      "latestDate": "2026-11-04",
+      "window": "Oct 30 \u2013 Nov 4, 2026",
+      "buyers": [
+        {
+          "name": "Andrew C. Clarke",
+          "role": "Director",
+          "amountUsd": 400000
+        },
+        {
+          "name": "Sue Gove",
+          "role": "Director",
+          "amountUsd": 201000
+        },
+        {
+          "name": "Michael Scott Powell",
+          "role": "Director",
+          "amountUsd": 192000
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Per-buyer amounts from InsiderPrint."
+    },
+    {
+      "ticker": "LBRT",
+      "company": "Liberty Energy Inc.",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 646000,
+      "latestDate": "2026-11-03",
+      "window": "Oct 26 \u2013 Nov 3, 2026",
+      "buyers": [
+        {
+          "name": "Ron Gusek",
+          "role": "CEO and President",
+          "amountUsd": 377000
+        },
+        {
+          "name": "Ken Babcock",
+          "role": "Director",
+          "amountUsd": 223000
+        },
+        {
+          "name": "Ryan T. Gosney",
+          "role": "Chief Accounting Officer",
+          "amountUsd": 45000
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Per-buyer amounts from InsiderPrint."
+    },
+    {
+      "ticker": "NXG",
+      "company": "NXG NextGen Infrastructure Income Fund",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 526000,
+      "latestDate": "2026-10-23",
+      "window": "Oct 19 \u2013 Oct 23, 2026",
+      "buyers": [
+        {
+          "name": "Jerry V. Swank",
+          "role": "See remarks",
+          "amountUsd": null
+        },
+        {
+          "name": "Todd Sunderland",
+          "role": "Portfolio Manager",
+          "amountUsd": null
+        },
+        {
+          "name": "Blake Nelson",
+          "role": "CFO & Treasurer",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "TRTX",
+      "company": "TPG RE Finance Trust, Inc.",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 299000,
+      "latestDate": "2026-10-30",
+      "window": "Oct 30, 2026",
+      "buyers": [
+        {
+          "name": "Wendy Silverstein",
+          "role": "Director",
+          "amountUsd": 253000
+        },
+        {
+          "name": "Michael Bradley Smith",
+          "role": "Director",
+          "amountUsd": 33000
+        },
+        {
+          "name": "Michael Gillmore",
+          "role": "Director",
+          "amountUsd": 13000
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Per-buyer amounts from InsiderPrint."
+    },
+    {
+      "ticker": "OCFC",
+      "company": "OceanFirst Financial Corp",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 278000,
+      "latestDate": "2026-11-03",
+      "window": "Oct 30 \u2013 Nov 3, 2026",
+      "buyers": [
+        {
+          "name": "Nicos Katsoulis",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Patrick Sean Barrett",
+          "role": "Senior EVP & CFO",
+          "amountUsd": null
+        },
+        {
+          "name": "Jack M. Farris",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "DX",
+      "company": "Dynex Capital Inc",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 267000,
+      "latestDate": "2026-10-20",
+      "window": "Oct 20, 2026",
+      "buyers": [
+        {
+          "name": "Smriti Laxman Popenoe",
+          "role": "Co-CEO and President",
+          "amountUsd": null
+        },
+        {
+          "name": "Byron L. Boston",
+          "role": "Co-CEO & Chairman of the Board",
+          "amountUsd": null
+        },
+        {
+          "name": "Michael Andrew Sartori",
+          "role": "Chief Financial Officer",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "NMCO",
+      "company": "Nuveen Municipal Credit Opportunities Fund",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 254000,
+      "latestDate": "2026-10-23",
+      "window": "Oct 23, 2026",
+      "buyers": [
+        {
+          "name": "L. Robert Young",
+          "role": "Trustee",
+          "amountUsd": null
+        },
+        {
+          "name": "Nathaniel T. Jones",
+          "role": "Vice President",
+          "amountUsd": null
+        },
+        {
+          "name": "Bank of America Corp",
+          "role": "10% owner",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "STRZ",
+      "company": "Starz Entertainment Corp",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 177000,
+      "latestDate": "2026-11-02",
+      "window": "Nov 2, 2026",
+      "buyers": [
+        {
+          "name": "Jeffrey Hirsch",
+          "role": "President and CEO",
+          "amountUsd": null
+        },
+        {
+          "name": "Scott D. MacDonald",
+          "role": "CFO and Treasurer",
+          "amountUsd": null
+        },
+        {
+          "name": "James M. Kapenstein",
+          "role": "See remarks",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "SYNX",
+      "company": "Silynxcom Ltd.",
+      "insiderCount": 3,
+      "tradeCount": 12,
+      "totalValueUsd": 157000,
+      "latestDate": "2026-11-04",
+      "window": "Oct 29 \u2013 Nov 4, 2026",
+      "buyers": [
+        {
+          "name": "Gal Nir Klein",
+          "role": "VP Marketing & Israel Sales",
+          "amountUsd": null
+        },
+        {
+          "name": "Nir Klein",
+          "role": "Chief Executive Officer",
+          "amountUsd": null
+        },
+        {
+          "name": "Ron Klein",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "FFIN",
+      "company": "First Financial Bankshares Inc",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 149000,
+      "latestDate": "2026-10-30",
+      "window": "Oct 23 \u2013 Oct 30, 2026",
+      "buyers": [
+        {
+          "name": "Michael B. Denny",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Robert Clark Nickles Jr.",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Murray Hamilton Edwards",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "NVA",
+      "company": "Nova Minerals Corp",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 47000,
+      "latestDate": "2026-10-26",
+      "window": "Oct 26, 2026",
+      "buyers": [
+        {
+          "name": "Christopher Gerteisen",
+          "role": "Chief Executive Officer",
+          "amountUsd": null
+        },
+        {
+          "name": "Joshua I. Girnun",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Avi Geller",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "UMH",
+      "company": "UMH Properties, Inc.",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 29000,
+      "latestDate": "2026-11-04",
+      "window": "Oct 26 \u2013 Nov 4, 2026",
+      "buyers": [
+        {
+          "name": "William Edward Mitchell",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Jeffrey A. Carus",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Kevin S. Miller",
+          "role": "EVP, CFO, Treasurer",
+          "amountUsd": null
+        }
+      ],
+      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders"
+    },
+    {
+      "ticker": "HEI",
+      "company": "HEICO Corp",
+      "insiderCount": 8,
+      "tradeCount": null,
+      "totalValueUsd": 1400000,
+      "latestDate": "2026-10-08",
+      "window": "Oct 8, 2026",
+      "buyers": [
+        {
+          "name": "Julie Neitzel",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Adolfo Henriques",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Alan Schriesheim",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Nandakumar Cheruvatath",
+          "role": "Director",
+          "amountUsd": null
+        }
+      ],
+      "source": "InsiderPrint \u2014 cluster buys, Nov 6, 2026",
+      "sourceUrl": "https://www.insiderprint.com/cluster-buys",
+      "note": "8 insiders in total; 4 further buyers are named in the source. Total $1.4M from InsiderPrint. KeyVex lists a lower HEI total \u2014 trackers split HEI / HEI.A share classes differently."
+    },
+    {
+      "ticker": "LRN",
+      "company": "Stride, Inc.",
+      "insiderCount": 3,
+      "tradeCount": 15,
+      "totalValueUsd": 31500000,
+      "latestDate": "2026-11-04",
+      "window": "Oct 23 \u2013 Nov 3, 2026",
+      "buyers": [
+        {
+          "name": "Dylan G. Haggart",
+          "role": "Director, via Fivespan Partners, LP",
+          "amountUsd": 17600000
+        },
+        {
+          "name": "Brian A. Shepherd",
+          "role": "Director",
+          "amountUsd": 1669737
+        },
+        {
+          "name": "Fivespan Partners GP, LLC",
+          "role": "Joint filer with Haggart",
+          "amountUsd": null
+        }
+      ],
+      "source": "KeyVex \u2014 SEC EDGAR Form 4, updated Nov 9, 2026",
+      "sourceUrl": "https://keyvex.com/insiders",
+      "note": "Haggart's Fivespan entities are related filings for the same economic buyer, not independent insiders. $17.6M is Haggart's Oct 30\u2013Nov 3 lots; the $31.5M cluster total also includes his earlier October lots. Shepherd's $1.67M is his Nov 2\u20133 buys."
+    },
+    {
+      "ticker": "PAM",
+      "company": "Pampa Energy Inc.",
+      "insiderCount": 3,
+      "tradeCount": null,
+      "totalValueUsd": 2800000,
+      "latestDate": "2026-11-05",
+      "window": "Oct 15 \u2013 Nov 5, 2026",
+      "buyers": [
+        {
+          "name": "Damian Miguel Mindlin",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Adolfo Fernando Zuberbuhler",
+          "role": "Director",
+          "amountUsd": null
+        },
+        {
+          "name": "Marcos Marcelo Mindlin",
+          "role": "Director, 10% owner",
+          "amountUsd": null
+        }
+      ],
+      "source": "KeyVex \u2014 SEC EDGAR Form 4, updated Nov 9, 2026",
+      "sourceUrl": "https://keyvex.com/insiders",
+      "note": "The three buyers are members of the same family. A separate $35.1M single purchase by Marcos Marcelo Mindlin on Oct 15 is NOT included in this $2.8M cluster total."
+    }
+  ]
+}
