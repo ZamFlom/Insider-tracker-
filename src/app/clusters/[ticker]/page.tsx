@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { CLUSTERS, formatDate, formatMoney, getCluster } from "../../../lib/data";
+import { CLUSTERS, formatCap, formatDate, formatMoney, formatPct, getCluster } from "../../../lib/data";
 
 export function generateStaticParams() {
   return CLUSTERS.map((c) => ({ ticker: c.ticker }));
@@ -27,7 +27,34 @@ export default function ClusterPage({ params }: { params: { ticker: string } }) 
         {c.tradeCount ? <span className="pill">{c.tradeCount} open-market trades</span> : null}
         <span className="pill">window: {c.window}</span>
         <span className="pill">latest: {formatDate(c.latestDate)}</span>
+        <span className="pill">market cap {formatCap(c.marketCapUsd)} ({c.marketCapClass})</span>
+        <span className="pill">{c.officerCount} officer/director buyers (named)</span>
+        {c.dip20pct === true ? <span className="pill">bought {c.pctDownFrom90dHigh !== null ? `${Math.abs(c.pctDownFrom90dHigh).toFixed(2)}%` : ""} below its 90-day high</span> : null}
+        {c.dip20pct === null ? <span className="pill">dip vs 90-day high: unknown — recent IPO, no 90 days of trading before the filing</span> : null}
       </p>
+      <h2>What happened next</h2>
+      <p>
+        Filing-date close ({formatDate(c.followThrough.filingCloseDate)}):{" "}
+        {c.followThrough.filingClose !== null ? `$${c.followThrough.filingClose.toFixed(2)}` : "unknown"} ·{" "}
+        Nov 6, 2026 close: {c.followThrough.closeNov6 !== null ? `$${c.followThrough.closeNov6.toFixed(2)}` : "unknown"} ·{" "}
+        <strong>since filing: {formatPct(c.followThrough.pctChangeToNov6)}</strong>
+      </p>
+      <p>
+        +10 days: {c.followThrough.plus10Pct !== null
+          ? `${formatPct(c.followThrough.plus10Pct)} (close ${c.followThrough.plus10Close !== null ? `$${c.followThrough.plus10Close.toFixed(2)}` : ""} on ${c.followThrough.plus10Date ? formatDate(c.followThrough.plus10Date) : ""})`
+          : "not yet elapsed — tracking"}{" "}
+        · +30 days: {c.followThrough.plus30Pct !== null
+          ? formatPct(c.followThrough.plus30Pct)
+          : "not yet elapsed — tracking"}
+      </p>
+      <p className="muted">
+        Prices: {c.followThrough.priceSource}. Follow-through is measured from the filing-date close to the first
+        trading day on or after filing +10 / +30 calendar days, and to the Nov 6, 2026 close. 90-day high:{" "}
+        {c.high90d !== null ? `$${c.high90d.toFixed(2)}` : "unknown"}; the stock was{" "}
+        {c.pctDownFrom90dHigh !== null ? `${Math.abs(c.pctDownFrom90dHigh).toFixed(2)}% below` : "an unknown amount below"} that high at filing.
+        This is tracking, not a prediction — a few days of price movement proves nothing on its own.
+      </p>
+      {c.marketCapNote ? <p className="muted">Market-cap note: {c.marketCapNote}</p> : null}
       <h2>Who bought</h2>
       <table>
         <thead><tr><th>Insider</th><th>Role</th><th>Amount</th></tr></thead>
