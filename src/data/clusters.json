@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-11-09",
-  "newestFiling": "2026-11-06",
+  "asOf": "2026-11-10",
+  "newestFiling": "2026-11-10",
   "definition": "A cluster buy is 2+ insiders buying the same company on the open market (SEC Form 4, code P) within 30 days.",
-  "primarySource": "XOOMAR cluster table, SEC EDGAR Form 4 filings, as of 2026-11-06",
+  "primarySource": "XOOMAR cluster table, SEC EDGAR Form 4 filings, as of 2026-11-10",
   "primarySourceUrl": "https://staging.xoomar.com/markets/insiders",
   "clusters": [
     {
@@ -12,7 +12,7 @@
       "tradeCount": 11,
       "totalValueUsd": 22000000,
       "latestDate": "2026-10-28",
-      "window": "Oct 21 \u2013 Oct 28, 2026",
+      "window": "Oct 21 – Oct 28, 2026",
       "buyers": [
         {
           "name": "James Healy",
@@ -40,31 +40,31 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "note": "7 insiders in total; 2 further buyers are named in the source filing list.",
       "followThrough": {
         "filingClose": 22.5,
         "filingCloseDate": "2026-10-28",
-        "closeNov6": 24.44,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 8.62,
-        "plus10Date": null,
-        "plus10Close": null,
-        "plus10Pct": null,
+        "plus10Date": "2026-11-09",
+        "plus10Close": 26.07,
+        "plus10Pct": 15.87,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 26.07,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 15.87
       },
       "high90d": 52.5,
       "pctDownFrom90dHigh": -57.14,
       "dip20pct": true,
-      "marketCapUsd": 1516965732,
+      "marketCapUsd": 1545419954,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($26.07). 59,279,630 shares (SEC EDGAR company facts, 10-Q filed Nov 4, 2026, period ended 2026-11-02).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 5,
       "officerNames": [
@@ -81,73 +81,85 @@
       "ticker": "UPBD",
       "company": "Upbound Group, Inc.",
       "insiderCount": 7,
-      "tradeCount": 9,
-      "totalValueUsd": 1400000,
-      "latestDate": "2026-11-03",
-      "window": "Oct 27 \u2013 Nov 3, 2026",
+      "tradeCount": 10,
+      "totalValueUsd": 1690744,
+      "latestDate": "2026-11-05",
+      "window": "Oct 27 – Nov 5, 2026",
       "buyers": [
         {
           "name": "Jeffrey J. Brown",
           "role": "Director",
-          "amountUsd": 438000
-        },
-        {
-          "name": "Glenn P. Marino",
-          "role": "Director",
-          "amountUsd": 393000
-        },
-        {
-          "name": "Halim Khouri",
-          "role": "Chief Financial Officer",
-          "amountUsd": 251000
+          "amountUsd": 447028
         },
         {
           "name": "Fahmi Karam",
           "role": "Chief Executive Officer",
-          "amountUsd": 100000
+          "amountUsd": 400072
+        },
+        {
+          "name": "Glenn P. Marino",
+          "role": "Director",
+          "amountUsd": 393414
+        },
+        {
+          "name": "Halim Khouri",
+          "role": "Chief Financial Officer",
+          "amountUsd": 250580
         },
         {
           "name": "Rebecca Wooters",
           "role": "EVP, Chief Growth Officer",
-          "amountUsd": null
+          "amountUsd": 99475
+        },
+        {
+          "name": "Balaji Kumar",
+          "role": "EVP, Chief Technology Officer",
+          "amountUsd": 50094
+        },
+        {
+          "name": "Molly Langenstein",
+          "role": "Director",
+          "amountUsd": 50081
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
-      "note": "7 insiders in total; 2 further buyers are named in the source filing list. Per-buyer amounts from InsiderPrint.",
+      "note": "Updated Nov 10: Karam (CEO) bought $300K on Nov 5, taking the cluster to 10 trades / $1.69M. All 7 buyers now named; per-buyer amounts from XOOMAR (SEC Form 4 data).",
       "followThrough": {
-        "filingClose": 22.46,
-        "filingCloseDate": "2026-11-03",
-        "closeNov6": 24.24,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 7.93,
+        "filingClose": 24.88,
+        "filingCloseDate": "2026-11-05",
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 24.68,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -0.8
       },
-      "high90d": 22.84,
-      "pctDownFrom90dHigh": -1.66,
+      "high90d": 24.14,
+      "pctDownFrom90dHigh": 3.07,
       "dip20pct": false,
-      "marketCapUsd": 1441234834,
+      "marketCapUsd": 1438902738,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($24.68). 58,302,380 shares (SEC EDGAR company facts, 10-Q filed Oct 30, 2026, period ended 2026-10-22).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
-      "officerCount": 5,
+      "officerCount": 7,
       "officerNames": [
         "Jeffrey J. Brown",
+        "Fahmi Karam",
         "Glenn P. Marino",
         "Halim Khouri",
-        "Fahmi Karam",
-        "Rebecca Wooters"
+        "Rebecca Wooters",
+        "Balaji Kumar",
+        "Molly Langenstein"
       ],
       "qualifiesSmallCapOfficer": true,
-      "priceNotes": "90-day high $22.84 on 2026-11-02, the day before filing. Filing date was a trading day (Tue). Stooq unreachable (see RAPP note)."
+      "priceNotes": "90-day high $24.14 on 2026-11-04, the day before filing — the stock ran up into the filing, so the filing close sits 3.07% above the 90-day high. Yahoo chart API, cross-checked against Nasdaq historical API."
     },
     {
       "ticker": "BBT",
@@ -156,7 +168,7 @@
       "tradeCount": 7,
       "totalValueUsd": 280000,
       "latestDate": "2026-10-30",
-      "window": "Oct 26 \u2013 Oct 30, 2026",
+      "window": "Oct 26 – Oct 30, 2026",
       "buyers": [
         {
           "name": "Thomas J. Hollister",
@@ -184,31 +196,31 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "note": "7 insiders in total; 2 further buyers are named in the source filing list.",
       "followThrough": {
         "filingClose": 30.62,
         "filingCloseDate": "2026-10-30",
-        "closeNov6": 30.6,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -0.07,
-        "plus10Date": null,
-        "plus10Close": null,
-        "plus10Pct": null,
+        "plus10Date": "2026-11-09",
+        "plus10Close": 30.67,
+        "plus10Pct": 0.16,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 30.67,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 0.16
       },
       "high90d": 32.61,
       "pctDownFrom90dHigh": -6.1,
       "dip20pct": false,
-      "marketCapUsd": 2601542349,
+      "marketCapUsd": 2554914051,
       "marketCapClass": "mid",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($30.67). 83,303,360 shares (SEC EDGAR company facts, 10-Q filed Nov 9, 2026, period ended 2026-11-06).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 5,
       "officerNames": [
@@ -228,7 +240,7 @@
       "tradeCount": 6,
       "totalValueUsd": 461000,
       "latestDate": "2026-10-26",
-      "window": "Oct 23 \u2013 Oct 26, 2026",
+      "window": "Oct 23 – Oct 26, 2026",
       "buyers": [
         {
           "name": "Frederick H. Eppinger",
@@ -256,30 +268,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 42.96,
         "filingCloseDate": "2026-10-26",
-        "closeNov6": 47.0,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 9.4,
         "plus10Date": "2026-11-05",
         "plus10Close": 48.99,
         "plus10Pct": 14.04,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 45.94,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 6.94
       },
       "high90d": 70.24,
       "pctDownFrom90dHigh": -38.84,
       "dip20pct": true,
-      "marketCapUsd": 1462182374,
+      "marketCapUsd": 1402395863,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($45.94). 30,526,684 shares (SEC EDGAR company facts, 10-Q filed Nov 4, 2026, period ended 2026-10-27).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 5,
       "officerNames": [
@@ -322,23 +334,23 @@
           "amountUsd": 15000000
         }
       ],
-      "source": "InsiderPrint \u2014 cluster buys, Nov 6, 2026",
+      "source": "InsiderPrint — cluster buys, Nov 6, 2026",
       "sourceUrl": "https://www.insiderprint.com/cluster-buys",
-      "note": "Total and per-buyer amounts from InsiderPrint ($68.0M). XOOMAR lists $53.0M for the same cluster \u2014 trackers count related 10% holders differently.",
+      "note": "Total and per-buyer amounts from InsiderPrint ($68.0M). XOOMAR lists $53.0M for the same cluster — trackers count related 10% holders differently.",
       "followThrough": {
         "filingClose": 13.04,
         "filingCloseDate": "2026-11-02",
-        "closeNov6": 12.44,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -4.6,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 12.4,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -4.91
       },
       "high90d": null,
       "pctDownFrom90dHigh": null,
@@ -353,7 +365,7 @@
         "Peter A. Thompson"
       ],
       "qualifiesSmallCapOfficer": false,
-      "priceNotes": "Aspen Neuroscience, Inc. \u2014 recent IPO: first trading day was 2026-10-30, so only ONE trading day (Oct 30 close $14.89) exists before the 2026-11-02 filing date. A true 90-day high cannot be established; high90d/pctDownFrom90dHigh/dip20pct are null (unknown), not zero. Filing date was a trading day (Mon). Stooq unreachable (see RAPP note)."
+      "priceNotes": "Aspen Neuroscience, Inc. — recent IPO: first trading day was 2026-10-30, so only ONE trading day (Oct 30 close $14.89) exists before the 2026-11-02 filing date. A true 90-day high cannot be established; high90d/pctDownFrom90dHigh/dip20pct are null (unknown), not zero. Filing date was a trading day (Mon). Stooq unreachable (see RAPP note)."
     },
     {
       "ticker": "NPB",
@@ -362,7 +374,7 @@
       "tradeCount": 5,
       "totalValueUsd": 1800000,
       "latestDate": "2026-10-28",
-      "window": "Oct 23 \u2013 Oct 28, 2026",
+      "window": "Oct 23 – Oct 28, 2026",
       "buyers": [
         {
           "name": "Charles Alan Williams",
@@ -385,30 +397,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 16.19,
         "filingCloseDate": "2026-10-28",
-        "closeNov6": 15.76,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -2.66,
-        "plus10Date": null,
-        "plus10Close": null,
-        "plus10Pct": null,
+        "plus10Date": "2026-11-09",
+        "plus10Close": 15.9,
+        "plus10Pct": -1.79,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 15.9,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -1.79
       },
       "high90d": 17.5,
       "pctDownFrom90dHigh": -7.49,
       "dip20pct": false,
-      "marketCapUsd": 545009830,
+      "marketCapUsd": 549851288,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($15.90). 34,581,842 shares (SEC EDGAR company facts, 10-Q filed Aug 13, 2026, period ended 2026-08-13). Share count is from Q2; no newer figure published.",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 4,
       "officerNames": [
@@ -423,68 +435,92 @@
     {
       "ticker": "MTDR",
       "company": "Matador Resources Co",
-      "insiderCount": 4,
-      "tradeCount": 4,
-      "totalValueUsd": 224000,
-      "latestDate": "2026-11-05",
-      "window": "Nov 5, 2026",
+      "insiderCount": 8,
+      "tradeCount": 10,
+      "totalValueUsd": 625186,
+      "latestDate": "2026-11-09",
+      "window": "Nov 5 – Nov 9, 2026",
       "buyers": [
+        {
+          "name": "Joseph Wm Foran",
+          "role": "Chairman and CEO",
+          "amountUsd": 256800
+        },
         {
           "name": "Christopher P. Calvert",
           "role": "EVP and CFO",
-          "amountUsd": 105000
+          "amountUsd": 105140
+        },
+        {
+          "name": "Shelley F. Appel",
+          "role": "Director",
+          "amountUsd": 67521
+        },
+        {
+          "name": "Glenn W. Stetson",
+          "role": "EVP and COO",
+          "amountUsd": 50800
         },
         {
           "name": "Bryan A. Erman",
           "role": "President",
-          "amountUsd": 46000
+          "amountUsd": 46473
         },
         {
           "name": "William Thomas Elsener",
           "role": "EVP, Reservoir Engineering",
-          "amountUsd": 46000
+          "amountUsd": 46332
         },
         {
           "name": "Benjamin T. Colodney",
           "role": "SVP & Chief Accounting Officer",
-          "amountUsd": 26000
+          "amountUsd": 25760
+        },
+        {
+          "name": "Paul W. Harvey",
+          "role": "Director",
+          "amountUsd": 26360
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
-      "note": "Per-buyer amounts from InsiderPrint.",
+      "note": "Updated Nov 10: four more insiders joined Nov 5–9 (Foran, Appel, Stetson, Harvey), taking the cluster to 8 buyers / $625K. Per-buyer amounts from XOOMAR (SEC Form 4 data).",
       "followThrough": {
-        "filingClose": 49.87,
-        "filingCloseDate": "2026-11-05",
-        "closeNov6": 50.41,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 1.08,
+        "filingClose": 49.97,
+        "filingCloseDate": "2026-11-09",
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 49.97,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 0.0
       },
       "high90d": 63.17,
-      "pctDownFrom90dHigh": -21.05,
+      "pctDownFrom90dHigh": -20.9,
       "dip20pct": true,
-      "marketCapUsd": 6379529835,
+      "marketCapUsd": 6183676267,
       "marketCapClass": "mid",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($49.97). 123,747,774 shares (SEC EDGAR company facts, 10-Q filed Nov 6, 2026, period ended 2026-11-03).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
-      "officerCount": 4,
+      "officerCount": 8,
       "officerNames": [
+        "Joseph Wm Foran",
         "Christopher P. Calvert",
+        "Shelley F. Appel",
+        "Glenn W. Stetson",
         "Bryan A. Erman",
         "William Thomas Elsener",
-        "Benjamin T. Colodney"
+        "Benjamin T. Colodney",
+        "Paul W. Harvey"
       ],
       "qualifiesSmallCapOfficer": false,
-      "priceNotes": "Matador Resources Co (NYSE). 90-day high $63.17 on 2026-09-15. Filing date was a trading day (Thu). Nasdaq historical shows Nov 6 close $50.41 (Nasdaq info endpoint showed $50.395, same value to 3 decimals). Stooq unreachable (see RAPP note)."
+      "priceNotes": "90-day high $63.17 on 2026-09-15. Filing date was a trading day (Mon). Yahoo chart API, cross-checked against Nasdaq historical API."
     },
     {
       "ticker": "TBBK",
@@ -493,7 +529,7 @@
       "tradeCount": 5,
       "totalValueUsd": 93000,
       "latestDate": "2026-11-04",
-      "window": "Oct 26 \u2013 Nov 4, 2026",
+      "window": "Oct 26 – Nov 4, 2026",
       "buyers": [
         {
           "name": "Stephanie B. Mudick",
@@ -516,31 +552,31 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 47.34,
         "filingCloseDate": "2026-11-04",
-        "closeNov6": 48.25,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 1.92,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 49.79,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 5.18
       },
       "high90d": 70.75,
       "pctDownFrom90dHigh": -33.09,
       "dip20pct": true,
-      "marketCapUsd": 1967963534,
+      "marketCapUsd": 1988134666,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
-      "marketCapNote": "",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($49.79). 39,930,401 shares (SEC EDGAR company facts, 10-Q filed Nov 5, 2026, period ended 2026-10-30).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "Borderline: $1.99B vs the $2B line — a small further rise takes it out of the small-cap view.",
       "officerCount": 4,
       "officerNames": [
         "Stephanie B. Mudick",
@@ -549,7 +585,7 @@
         "Mark E. Tryniski"
       ],
       "qualifiesSmallCapOfficer": true,
-      "priceNotes": "The Bancorp, Inc. 90-day high $70.75 on 2026-08-06. Filing date was a trading day (Wed). Market cap cross-checked: Finnhub $1.90B, WallStreetZen $1.97B (as of Nov 9, 2026), companiesmarketcap $1.96B, stockanalysis $1.93B, TipRanks $1.93B (Nov 6) \u2014 all agree small-cap, just under $2B. Stooq unreachable (see RAPP note)."
+      "priceNotes": "The Bancorp, Inc. 90-day high $70.75 on 2026-08-06. Filing date was a trading day (Wed). Market cap cross-checked: Finnhub $1.90B, WallStreetZen $1.97B (as of Nov 9, 2026), companiesmarketcap $1.96B, stockanalysis $1.93B, TipRanks $1.93B (Nov 6) — all agree small-cap, just under $2B. Stooq unreachable (see RAPP note)."
     },
     {
       "ticker": "CHCO",
@@ -581,31 +617,31 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 142.01,
         "filingCloseDate": "2026-10-23",
-        "closeNov6": 141.49,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -0.37,
         "plus10Date": "2026-11-02",
         "plus10Close": 145.47,
         "plus10Pct": 2.44,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 143.09,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 0.76
       },
       "high90d": 147.98,
       "pctDownFrom90dHigh": -4.03,
       "dip20pct": false,
-      "marketCapUsd": 1991627389,
-      "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com/api/quote/{ticker}/summary), fetched 2026-11-09 pre-market; Previous Close shown = Nov 6, 2026 close",
-      "marketCapAsOf": "2026-11-06",
-      "marketCapNote": "Borderline: $1.99B vs the $2B line \u2014 other sources put it at $2.04B (mid-cap).",
+      "marketCapUsd": 2014149149,
+      "marketCapClass": "mid",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($143.09). 14,076,100 shares (SEC EDGAR company facts, 10-Q filed Nov 4, 2026, period ended 2026-11-02).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "Crossed the $2B line on the Nov 9 close ($2.01B); was $1.99B at the Nov 6 close, so it leaves the small-cap, officer-only view. Other sources had it at $2.04B already.",
       "officerCount": 4,
       "officerNames": [
         "Robert D. Fisher",
@@ -613,8 +649,8 @@
         "James A. Hoyer",
         "Javier A. Reyes"
       ],
-      "qualifiesSmallCapOfficer": true,
-      "priceNotes": "City Holding Company. 90-day high $147.98 on 2026-08-13. Filing date was a trading day (Fri). BORDERLINE market cap: Nasdaq $1.992B is 0.4% below the $2B small/mid line, but Finnhub reports $2.04B and companiesmarketcap $1.99B-$2.03B depending on date \u2014 classification as small-cap is source-dependent and could flip to mid-cap on another source/date. Nasdaq quote-info endpoint returned no previous-close for CHCO, but Nasdaq historical API confirms Nov 6 close $141.49, matching Yahoo and Finnhub. Stooq unreachable (see RAPP note)."
+      "qualifiesSmallCapOfficer": false,
+      "priceNotes": "City Holding Company. 90-day high $147.98 on 2026-08-13. Filing date was a trading day (Fri). Market cap crossed the $2B line on the Nov 9 close ($2.01B vs $1.99B at Nov 6), so it is now mid-cap and leaves the small-cap, officer-only view. Nasdaq quote-info endpoint returned no previous-close for CHCO, but Nasdaq historical API confirms Nov 6 close $141.49, matching Yahoo and Finnhub. Stooq unreachable (see RAPP note)."
     },
     {
       "ticker": "BBTX",
@@ -623,7 +659,7 @@
       "tradeCount": 5,
       "totalValueUsd": 58600000,
       "latestDate": "2026-11-02",
-      "window": "Oct 30 \u2013 Nov 2, 2026",
+      "window": "Oct 30 – Nov 2, 2026",
       "buyers": [
         {
           "name": "RA Capital Management, L.P.",
@@ -641,23 +677,23 @@
           "amountUsd": 6000000
         }
       ],
-      "source": "InsiderPrint \u2014 cluster buys, Nov 6, 2026",
+      "source": "InsiderPrint — cluster buys, Nov 6, 2026",
       "sourceUrl": "https://www.insiderprint.com/cluster-buys",
       "note": "Total and per-buyer amounts from InsiderPrint ($58.6M). XOOMAR lists $52.6M for the same cluster.",
       "followThrough": {
         "filingClose": 16.0,
         "filingCloseDate": "2026-11-02",
-        "closeNov6": 15.73,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -1.69,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) \u2014 filing close and Nov 6 close matched to the cent for all 10 tickers"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 16.94,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 5.88
       },
       "high90d": null,
       "pctDownFrom90dHigh": null,
@@ -672,7 +708,7 @@
         "Helmut Wolfgang Jeggle"
       ],
       "qualifiesSmallCapOfficer": false,
-      "priceNotes": "Bambusa Therapeutics, Inc. \u2014 recent IPO: first trading day was 2026-10-30, so only ONE trading day (Oct 30 close $14.99) exists before the 2026-11-02 filing date. A true 90-day high cannot be established; high90d/pctDownFrom90dHigh/dip20pct are null (unknown), not zero. Note the filing close ($16.00) was above that sole prior close. Filing date was a trading day (Mon). Stooq unreachable (see RAPP note)."
+      "priceNotes": "Bambusa Therapeutics, Inc. — recent IPO: first trading day was 2026-10-30, so only ONE trading day (Oct 30 close $14.99) exists before the 2026-11-02 filing date. A true 90-day high cannot be established; high90d/pctDownFrom90dHigh/dip20pct are null (unknown), not zero. Note the filing close ($16.00) was above that sole prior close. Filing date was a trading day (Mon). Stooq unreachable (see RAPP note)."
     },
     {
       "ticker": "BPRE",
@@ -681,7 +717,7 @@
       "tradeCount": 15,
       "totalValueUsd": 15700000,
       "latestDate": "2026-10-27",
-      "window": "Sep 29 \u2013 Oct 27, 2026",
+      "window": "Sep 29 – Oct 27, 2026",
       "buyers": [
         {
           "name": "Ramin Kamfar",
@@ -699,22 +735,22 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 12.52,
         "filingCloseDate": "2026-10-27",
-        "closeNov6": 12.22,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -2.4,
         "plus10Date": "2026-11-06",
         "plus10Close": 12.22,
         "plus10Pct": -2.4,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 12.48,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -0.32
       },
       "high90d": 13.39,
       "pctDownFrom90dHigh": -6.5,
@@ -758,30 +794,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 2.18,
         "filingCloseDate": "2026-10-21",
-        "closeNov6": 2.19,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 0.46,
         "plus10Date": "2026-11-02",
         "plus10Close": 2.21,
         "plus10Pct": 1.38,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 2.26,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 3.67
       },
       "high90d": 3.91,
       "pctDownFrom90dHigh": 44.25,
       "dip20pct": true,
-      "marketCapUsd": 73965323,
+      "marketCapUsd": 76329513,
       "marketCapClass": "small",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($2.19). 33,774,120 shares (TipRanks; StockAnalysis/MarketBeat 33.77M).",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($2.26). 33,774,121 shares (SEC EDGAR company facts, 10-Q filed Sep 11, 2026, period ended 2026-09-04).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 0,
       "officerNames": [],
@@ -791,62 +827,68 @@
     {
       "ticker": "AN",
       "company": "AutoNation, Inc.",
-      "insiderCount": 3,
-      "tradeCount": 7,
-      "totalValueUsd": 1400000,
-      "latestDate": "2026-11-03",
-      "window": "Nov 2 \u2013 Nov 3, 2026",
+      "insiderCount": 4,
+      "tradeCount": 10,
+      "totalValueUsd": 1729868,
+      "latestDate": "2026-11-06",
+      "window": "Nov 2 – Nov 6, 2026",
       "buyers": [
         {
           "name": "Michael Mark Manley",
           "role": "CEO and Director",
-          "amountUsd": 1000000
+          "amountUsd": 1031024
         },
         {
           "name": "Thomas A. Szlosek",
           "role": "EVP & CFO",
-          "amountUsd": 300000
+          "amountUsd": 499790
         },
         {
           "name": "C. Coleman Edmunds",
           "role": "EVP, General Counsel & Corporate Secretary",
-          "amountUsd": 101000
+          "amountUsd": 100850
+        },
+        {
+          "name": "Jacqueline A. Travisano",
+          "role": "Director",
+          "amountUsd": 98204
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
-      "note": "Per-buyer amounts from InsiderPrint.",
+      "note": "Updated Nov 10: Travisano (Director) joined Nov 5 and Szlosek bought again Nov 5–6, taking the cluster to 4 buyers / $1.73M. Per-buyer amounts from XOOMAR (SEC Form 4 data); InsiderPrint’s split counted fewer Szlosek/Manley trades.",
       "followThrough": {
-        "filingClose": 178.51,
-        "filingCloseDate": "2026-11-03",
-        "closeNov6": 184.0,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 3.08,
+        "filingClose": 184.0,
+        "filingCloseDate": "2026-11-06",
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 186.06,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 1.12
       },
-      "high90d": 215.78,
-      "pctDownFrom90dHigh": 17.27,
+      "high90d": 212.36,
+      "pctDownFrom90dHigh": -13.35,
       "dip20pct": false,
-      "marketCapUsd": 5884973752,
+      "marketCapUsd": 5950859685,
       "marketCapClass": "mid",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($184.00). 31,983,553 shares (TipRanks; StockAnalysis/MarketBeat 31.98M).",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($186.06). 31,983,552 shares (SEC EDGAR company facts, 10-Q filed Oct 30, 2026, period ended 2026-10-28).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
-      "officerCount": 3,
+      "officerCount": 4,
       "officerNames": [
         "Michael Mark Manley",
         "Thomas A. Szlosek",
-        "C. Coleman Edmunds"
+        "C. Coleman Edmunds",
+        "Jacqueline A. Travisano"
       ],
       "qualifiesSmallCapOfficer": false,
-      "priceNotes": "90-day high $215.78 on 2026-08-05. Stooq CSV could not be fetched via curl (requests timed out/blocked through this VM's egress proxy); prices are Yahoo Finance chart API, cross-checked exactly (to the cent) against Nasdaq historical API for filing close, Nov 6 close and 90-day high. All filing dates were trading days."
+      "priceNotes": "90-day high $212.36 on 2026-09-04 (the Aug 5 high of $215.78 falls outside the 90 days before the Nov 6 filing). Yahoo chart API, cross-checked against Nasdaq historical API."
     },
     {
       "ticker": "LKQ",
@@ -855,7 +897,7 @@
       "tradeCount": 3,
       "totalValueUsd": 793000,
       "latestDate": "2026-11-04",
-      "window": "Oct 30 \u2013 Nov 4, 2026",
+      "window": "Oct 30 – Nov 4, 2026",
       "buyers": [
         {
           "name": "Andrew C. Clarke",
@@ -873,31 +915,31 @@
           "amountUsd": 192000
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "note": "Per-buyer amounts from InsiderPrint.",
       "followThrough": {
         "filingClose": 20.94,
         "filingCloseDate": "2026-11-04",
-        "closeNov6": 20.05,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -4.25,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 20.41,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -2.53
       },
       "high90d": 25.98,
       "pctDownFrom90dHigh": 19.4,
       "dip20pct": false,
-      "marketCapUsd": 5060620000,
+      "marketCapUsd": 5151444752,
       "marketCapClass": "mid",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($20.05). 252,400,000 shares (StockAnalysis, MarketBeat).",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($20.41). 252,398,077 shares (SEC EDGAR company facts, 10-Q filed Oct 29, 2026, period ended 2026-10-22).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -915,7 +957,7 @@
       "tradeCount": 3,
       "totalValueUsd": 646000,
       "latestDate": "2026-11-03",
-      "window": "Oct 26 \u2013 Nov 3, 2026",
+      "window": "Oct 26 – Nov 3, 2026",
       "buyers": [
         {
           "name": "Ron Gusek",
@@ -933,40 +975,40 @@
           "amountUsd": 45000
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "note": "Per-buyer amounts from InsiderPrint.",
       "followThrough": {
         "filingClose": 14.81,
         "filingCloseDate": "2026-11-03",
-        "closeNov6": 11.96,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -19.24,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 12.93,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -12.69
       },
       "high90d": 22.24,
       "pctDownFrom90dHigh": 33.41,
       "dip20pct": true,
-      "marketCapUsd": 1951769335,
-      "marketCapClass": "small",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($11.96). 163,191,416 shares (WallStreetZen, TMX Money, financecharts, StockAnalysis 163.19M).",
-      "marketCapAsOf": "2026-11-06",
-      "marketCapNote": "Borderline: $1.95B by shares x Nov 6 close, but Nasdaq quoted $2.004B at the Nov 9 pre-market price (mid-cap).",
+      "marketCapUsd": 2110065009,
+      "marketCapClass": "mid",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($12.93). 163,191,416 shares (Nov 6 share count, corroborated by Q3 weighted-average 163,191,000 shares, SEC EDGAR company facts).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "Crossed the $2B line on the Nov 9 close ($2.11B); was $1.95B at the Nov 6 close, so it leaves the small-cap, officer-only view. Nasdaq already quoted it at $2.004B pre-market Nov 9.",
       "officerCount": 3,
       "officerNames": [
         "Ron Gusek",
         "Ken Babcock",
         "Ryan T. Gosney"
       ],
-      "qualifiesSmallCapOfficer": true,
-      "priceNotes": "90-day high $22.24 on 2026-08-17. Stooq CSV could not be fetched via curl (requests timed out/blocked through this VM's egress proxy); prices are Yahoo Finance chart API, cross-checked exactly (to the cent) against Nasdaq historical API for filing close, Nov 6 close and 90-day high. All filing dates were trading days. Borderline cap: shares x Nov 6 close = $1.952B (small); Nasdaq's quoted market cap of $2,003,990,588, computed at the Nov 9 pre-market price of $12.28, would classify it mid. Using the task's shares x Nov 6 close method it is small."
+      "qualifiesSmallCapOfficer": false,
+      "priceNotes": "90-day high $22.24 on 2026-08-17. Stooq CSV could not be fetched via curl (requests timed out/blocked through this VM's egress proxy); prices are Yahoo Finance chart API, cross-checked exactly (to the cent) against Nasdaq historical API for filing close, Nov 6 close and 90-day high. All filing dates were trading days. Market cap crossed the $2B line on the Nov 9 close ($2.11B vs $1.95B at Nov 6), so it is now mid-cap and leaves the small-cap, officer-only view."
     },
     {
       "ticker": "NXG",
@@ -975,7 +1017,7 @@
       "tradeCount": 3,
       "totalValueUsd": 526000,
       "latestDate": "2026-10-23",
-      "window": "Oct 19 \u2013 Oct 23, 2026",
+      "window": "Oct 19 – Oct 23, 2026",
       "buyers": [
         {
           "name": "Jerry V. Swank",
@@ -993,22 +1035,22 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 44.41,
         "filingCloseDate": "2026-10-23",
-        "closeNov6": 43.36,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -2.36,
         "plus10Date": "2026-11-02",
         "plus10Close": 46.85,
         "plus10Pct": 5.49,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 45.41,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 2.25
       },
       "high90d": 62.86,
       "pctDownFrom90dHigh": 29.35,
@@ -1050,31 +1092,31 @@
           "amountUsd": 13000
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "note": "Per-buyer amounts from InsiderPrint.",
       "followThrough": {
         "filingClose": 6.5,
         "filingCloseDate": "2026-10-30",
-        "closeNov6": 6.75,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 3.85,
-        "plus10Date": null,
-        "plus10Close": null,
-        "plus10Pct": null,
+        "plus10Date": "2026-11-09",
+        "plus10Close": 6.74,
+        "plus10Pct": 3.69,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 6.74,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 3.69
       },
       "high90d": 8.06,
       "pctDownFrom90dHigh": 19.35,
       "dip20pct": false,
-      "marketCapUsd": 511852500,
+      "marketCapUsd": 511073670,
       "marketCapClass": "small",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($6.75). 75,830,000 shares (StockAnalysis, MarketBeat, WallStreetZen).",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($6.74). 75,826,954 shares (SEC EDGAR company facts, 10-Q filed Oct 26, 2026, period ended 2026-10-23).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1092,7 +1134,7 @@
       "tradeCount": 3,
       "totalValueUsd": 278000,
       "latestDate": "2026-11-03",
-      "window": "Oct 30 \u2013 Nov 3, 2026",
+      "window": "Oct 30 – Nov 3, 2026",
       "buyers": [
         {
           "name": "Nicos Katsoulis",
@@ -1110,30 +1152,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 18.34,
         "filingCloseDate": "2026-11-03",
-        "closeNov6": 18.13,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -1.15,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 18.26,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -0.44
       },
       "high90d": 19.87,
       "pctDownFrom90dHigh": 7.7,
       "dip20pct": false,
-      "marketCapUsd": 1752177839,
+      "marketCapUsd": 1766106652,
       "marketCapClass": "small",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($18.13). 96,645,220 shares (TipRanks; MarketBeat 96,640,000). StockAnalysis total 98.38M / ValueResearch 98,507,991 would give ~$1.78B.",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($18.26). 96,719,970 shares (SEC EDGAR company facts, 10-Q filed Nov 6, 2026, period ended 2026-11-02).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1169,30 +1211,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 10.96,
         "filingCloseDate": "2026-10-20",
-        "closeNov6": 10.68,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -2.55,
         "plus10Date": "2026-10-30",
         "plus10Close": 10.65,
         "plus10Pct": -2.83,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 10.81,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -1.37
       },
       "high90d": 13.33,
       "pctDownFrom90dHigh": 17.78,
       "dip20pct": false,
-      "marketCapUsd": 2772817428,
+      "marketCapUsd": 2806569037,
       "marketCapClass": "mid",
-      "marketCapSource": "Shares outstanding x Nov 6, 2026 close ($10.68). 259,627,100 shares (TipRanks; MarketBeat 259,630,000).",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($10.81). 259,627,108 shares (SEC EDGAR company facts, 10-Q filed Oct 27, 2026, period ended 2026-10-22).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1228,22 +1270,22 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 8.67,
         "filingCloseDate": "2026-10-23",
-        "closeNov6": 9.03,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 4.15,
         "plus10Date": "2026-11-02",
         "plus10Close": 8.92,
         "plus10Pct": 2.88,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked exactly (to the cent) against Nasdaq historical API (api.nasdaq.com) for filing close, Nov 6 close and 90-day high"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 9.15,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 5.54
       },
       "high90d": 10.63,
       "pctDownFrom90dHigh": 18.44,
@@ -1285,30 +1327,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 22.09,
         "filingCloseDate": "2026-11-02",
-        "closeNov6": 24.64,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 11.54,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 26.02,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 17.79
       },
       "high90d": 29.19,
       "pctDownFrom90dHigh": -24.32,
       "dip20pct": true,
-      "marketCapUsd": 425251091,
+      "marketCapUsd": 449067913,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($26.02). 17,258,567 shares (SEC EDGAR company facts, 10-Q filed Oct 29, 2026, period ended 2026-10-28).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 2,
       "officerNames": [
@@ -1325,7 +1367,7 @@
       "tradeCount": 12,
       "totalValueUsd": 157000,
       "latestDate": "2026-11-04",
-      "window": "Oct 29 \u2013 Nov 4, 2026",
+      "window": "Oct 29 – Nov 4, 2026",
       "buyers": [
         {
           "name": "Gal Nir Klein",
@@ -1343,30 +1385,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 1.0,
         "filingCloseDate": "2026-11-04",
-        "closeNov6": 0.902,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -9.8,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 0.9,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -10.0
       },
       "high90d": 1.08,
       "pctDownFrom90dHigh": -7.41,
       "dip20pct": false,
-      "marketCapUsd": 6634440,
+      "marketCapUsd": 5970996,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($0.90). 6,634,440 shares (SEC EDGAR company facts, 10-Q filed Apr 30, 2026, period ended 2025-12-31). Share count is from the 2025 20-F; no newer figure published.",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1384,7 +1426,7 @@
       "tradeCount": 4,
       "totalValueUsd": 149000,
       "latestDate": "2026-10-30",
-      "window": "Oct 23 \u2013 Oct 30, 2026",
+      "window": "Oct 23 – Oct 30, 2026",
       "buyers": [
         {
           "name": "Michael B. Denny",
@@ -1402,30 +1444,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 30.59,
         "filingCloseDate": "2026-10-30",
-        "closeNov6": 30.41,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -0.59,
-        "plus10Date": null,
-        "plus10Close": null,
-        "plus10Pct": null,
+        "plus10Date": "2026-11-09",
+        "plus10Close": 30.76,
+        "plus10Pct": 0.56,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 30.76,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 0.56
       },
       "high90d": 35.53,
       "pctDownFrom90dHigh": -13.9,
       "dip20pct": false,
-      "marketCapUsd": 4358589488,
+      "marketCapUsd": 4403628946,
       "marketCapClass": "mid",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($30.76). 143,160,889 shares (SEC EDGAR company facts, 10-Q filed Nov 5, 2026, period ended 2026-11-05).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1461,30 +1503,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 2.98,
         "filingCloseDate": "2026-10-26",
-        "closeNov6": 4.32,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 44.97,
         "plus10Date": "2026-11-05",
         "plus10Close": 4.38,
         "plus10Pct": 46.98,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 4.42,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 48.32
       },
       "high90d": 6.49,
       "pctDownFrom90dHigh": -54.08,
       "dip20pct": true,
-      "marketCapUsd": 166756611,
+      "marketCapUsd": 168819107,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($4.42). 38,194,368 shares (SEC EDGAR company facts, 10-Q filed Oct 28, 2026, period ended 2026-10-23).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1502,7 +1544,7 @@
       "tradeCount": 4,
       "totalValueUsd": 29000,
       "latestDate": "2026-11-04",
-      "window": "Oct 26 \u2013 Nov 4, 2026",
+      "window": "Oct 26 – Nov 4, 2026",
       "buyers": [
         {
           "name": "William Edward Mitchell",
@@ -1520,30 +1562,30 @@
           "amountUsd": null
         }
       ],
-      "source": "XOOMAR \u2014 SEC EDGAR Form 4 tracker",
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
       "sourceUrl": "https://staging.xoomar.com/markets/insiders",
       "followThrough": {
         "filingClose": 15.46,
         "filingCloseDate": "2026-11-04",
-        "closeNov6": 14.92,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -3.49,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 14.74,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": -4.66
       },
       "high90d": 16.66,
       "pctDownFrom90dHigh": -7.2,
       "dip20pct": false,
-      "marketCapUsd": 1279089989,
+      "marketCapUsd": 1263658608,
       "marketCapClass": "small",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($14.74). 85,729,892 shares (SEC EDGAR company facts, 10-Q filed Nov 2, 2026, period ended 2026-10-30).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 3,
       "officerNames": [
@@ -1584,30 +1626,30 @@
           "amountUsd": null
         }
       ],
-      "source": "InsiderPrint \u2014 cluster buys, Nov 6, 2026",
+      "source": "InsiderPrint — cluster buys, Nov 6, 2026",
       "sourceUrl": "https://www.insiderprint.com/cluster-buys",
-      "note": "8 insiders in total; 4 further buyers are named in the source. Total $1.4M from InsiderPrint. KeyVex lists a lower HEI total \u2014 trackers split HEI / HEI.A share classes differently.",
+      "note": "8 insiders in total; 4 further buyers are named in the source. Total $1.4M from InsiderPrint. KeyVex lists a lower HEI total — trackers split HEI / HEI.A share classes differently.",
       "followThrough": {
         "filingClose": 295.91,
         "filingCloseDate": "2026-10-08",
-        "closeNov6": 332.65,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": 12.42,
         "plus10Date": "2026-10-19",
         "plus10Close": 308.17,
         "plus10Pct": 4.14,
-        "plus30Date": null,
-        "plus30Close": null,
-        "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "plus30Date": "2026-11-09",
+        "plus30Close": 342.71,
+        "plus30Pct": 15.82,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 342.71,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 15.82
       },
       "high90d": 374.67,
       "pctDownFrom90dHigh": -21.02,
       "dip20pct": true,
       "marketCapUsd": 46490300773,
       "marketCapClass": "large",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
+      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6, 2026 close (kept at Nov 6 — no fresh share count available on Nov 10; Nasdaq summary API was unreachable)",
       "marketCapAsOf": "2026-11-06",
       "marketCapNote": "",
       "officerCount": 4,
@@ -1624,15 +1666,15 @@
       "ticker": "LRN",
       "company": "Stride, Inc.",
       "insiderCount": 3,
-      "tradeCount": 15,
-      "totalValueUsd": 31500000,
-      "latestDate": "2026-11-04",
-      "window": "Oct 23 \u2013 Nov 3, 2026",
+      "tradeCount": 18,
+      "totalValueUsd": 39585245,
+      "latestDate": "2026-11-05",
+      "window": "Oct 23 – Nov 5, 2026",
       "buyers": [
         {
           "name": "Dylan G. Haggart",
           "role": "Director, via Fivespan Partners, LP",
-          "amountUsd": 17600000
+          "amountUsd": 37915508
         },
         {
           "name": "Brian A. Shepherd",
@@ -1645,31 +1687,31 @@
           "amountUsd": null
         }
       ],
-      "source": "KeyVex \u2014 SEC EDGAR Form 4, updated Nov 9, 2026",
+      "source": "KeyVex — SEC EDGAR Form 4, updated Nov 9, 2026",
       "sourceUrl": "https://keyvex.com/insiders",
-      "note": "Haggart's Fivespan entities are related filings for the same economic buyer, not independent insiders. $17.6M is Haggart's Oct 30\u2013Nov 3 lots; the $31.5M cluster total also includes his earlier October lots. Shepherd's $1.67M is his Nov 2\u20133 buys.",
+      "note": "Updated Nov 10: Haggart bought a further $8.1M on Nov 5 (incl. a 100,000-share lot), taking the cluster to 18 trades / $39.6M. Haggart’s Fivespan entities are related filings for the same economic buyer, not independent insiders.",
       "followThrough": {
-        "filingClose": 79.24,
-        "filingCloseDate": "2026-11-04",
-        "closeNov6": 75.0,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -5.35,
+        "filingClose": 74.87,
+        "filingCloseDate": "2026-11-05",
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 75.72,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 1.14
       },
       "high90d": 87.28,
-      "pctDownFrom90dHigh": -9.21,
+      "pctDownFrom90dHigh": -14.22,
       "dip20pct": false,
-      "marketCapUsd": 3153663975,
+      "marketCapUsd": 3183939149,
       "marketCapClass": "mid",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
-      "marketCapAsOf": "2026-11-06",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($75.72). 42,048,853 shares (SEC EDGAR company facts, 10-Q filed Oct 21, 2026, period ended 2026-10-16).",
+      "marketCapAsOf": "2026-11-09",
       "marketCapNote": "",
       "officerCount": 2,
       "officerNames": [
@@ -1677,7 +1719,7 @@
         "Brian A. Shepherd"
       ],
       "qualifiesSmallCapOfficer": false,
-      "priceNotes": "Yahoo chart API and Nasdaq historical API agree exactly on filing close, Nov 6 close and 90d high. Market cap from Nasdaq summary API (as of Nov 6 close)."
+      "priceNotes": "90-day high $87.28 on 2026-09-01. Yahoo chart API and Nasdaq historical API agree exactly on filing close, Nov 9 close and 90-day high."
     },
     {
       "ticker": "PAM",
@@ -1686,7 +1728,7 @@
       "tradeCount": null,
       "totalValueUsd": 2800000,
       "latestDate": "2026-11-05",
-      "window": "Oct 15 \u2013 Nov 5, 2026",
+      "window": "Oct 15 – Nov 5, 2026",
       "buyers": [
         {
           "name": "Damian Miguel Mindlin",
@@ -1704,30 +1746,30 @@
           "amountUsd": null
         }
       ],
-      "source": "KeyVex \u2014 SEC EDGAR Form 4, updated Nov 9, 2026",
+      "source": "KeyVex — SEC EDGAR Form 4, updated Nov 9, 2026",
       "sourceUrl": "https://keyvex.com/insiders",
       "note": "The three buyers are members of the same family. A separate $35.1M single purchase by Marcos Marcelo Mindlin on Oct 15 is NOT included in this $2.8M cluster total.",
       "followThrough": {
         "filingClose": 64.07,
         "filingCloseDate": "2026-11-05",
-        "closeNov6": 63.58,
-        "closeNov6Date": "2026-11-06",
-        "pctChangeToNov6": -0.76,
         "plus10Date": null,
         "plus10Close": null,
         "plus10Pct": null,
         "plus30Date": null,
         "plus30Close": null,
         "plus30Pct": null,
-        "followThroughAsOf": "2026-11-06",
-        "priceSource": "Yahoo Finance chart API (v8), cross-checked exactly against Nasdaq historical API; Stooq CSV was unreachable from this VM (connection timed out)"
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent",
+        "closeNov9": 64.95,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 1.37
       },
       "high90d": 88.45,
       "pctDownFrom90dHigh": -27.56,
       "dip20pct": true,
       "marketCapUsd": 3697430930,
       "marketCapClass": "mid",
-      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (last close before Nov 9; Nov 9 session not yet closed at research time)",
+      "marketCapSource": "Nasdaq summary API (api.nasdaq.com), quoted as of Nov 6 2026 close (kept at Nov 6 — no fresh share count available on Nov 10; Nasdaq summary API was unreachable)",
       "marketCapAsOf": "2026-11-06",
       "marketCapNote": "",
       "officerCount": 3,
@@ -1738,40 +1780,401 @@
       ],
       "qualifiesSmallCapOfficer": false,
       "priceNotes": "Yahoo chart API and Nasdaq historical API agree exactly on filing close, Nov 6 close and 90d high. Market cap from Nasdaq summary API (as of Nov 6 close)."
+    },
+    {
+      "ticker": "LBTY",
+      "company": "Liberty Global Ltd.",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 4486300,
+      "latestDate": "2026-11-09",
+      "window": "Nov 4 – Nov 9, 2026",
+      "buyers": [
+        {
+          "name": "Enrique Rodriguez",
+          "role": "EVP, Chief Technology Officer",
+          "amountUsd": 1995978
+        },
+        {
+          "name": "John C. Malone",
+          "role": "10% owner",
+          "amountUsd": 1460150
+        },
+        {
+          "name": "Michael T. Fries",
+          "role": "President and CEO",
+          "amountUsd": 1030172
+        }
+      ],
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Share classes: Rodriguez and Fries bought Class A shares (LBTYA); Malone bought Class C shares (LBTYK). Trackers list the cluster as LBTY; prices here use LBTYA, the class two of the three buyers bought. Same company, different share classes — as with HEI / HEI.A.",
+      "followThrough": {
+        "filingClose": 9.99,
+        "filingCloseDate": "2026-11-09",
+        "closeNov9": 9.99,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 0.0,
+        "plus10Date": null,
+        "plus10Close": null,
+        "plus10Pct": null,
+        "plus30Date": null,
+        "plus30Close": null,
+        "plus30Pct": null,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent"
+      },
+      "high90d": 10.79,
+      "pctDownFrom90dHigh": -7.41,
+      "dip20pct": false,
+      "marketCapUsd": 3377091978,
+      "marketCapClass": "mid",
+      "marketCapSource": "Weighted-average shares outstanding x Nov 9, 2026 Class A close ($9.99). 338,047,245 shares (SEC EDGAR company facts, 10-Q for Q3 ended Sep 30, 2026) across all classes.",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "",
+      "officerCount": 2,
+      "officerNames": [
+        "Enrique Rodriguez",
+        "Michael T. Fries"
+      ],
+      "qualifiesSmallCapOfficer": false,
+      "priceNotes": "90-day high $10.79 on 2026-08-25 (Class A, LBTYA). Yahoo chart API, cross-checked against Nasdaq historical API."
+    },
+    {
+      "ticker": "AFCG",
+      "company": "Advanced Flower Capital Inc.",
+      "insiderCount": 2,
+      "tradeCount": 3,
+      "totalValueUsd": 92455,
+      "latestDate": "2026-11-06",
+      "window": "Nov 6, 2026",
+      "buyers": [
+        {
+          "name": "Leonard M. Tannenbaum",
+          "role": "Director, 10% owner",
+          "amountUsd": 56980
+        },
+        {
+          "name": "Robyn Tannenbaum",
+          "role": "President and CIO",
+          "amountUsd": 30900
+        },
+        {
+          "name": "Brandon Hetzel",
+          "role": "CFO and Treasurer",
+          "amountUsd": 4575
+        }
+      ],
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "The Tannenbaums are spouses filing for the same household — each Form 4 reports the other’s shares as “Held by spouse” plus shared Tannenbaum Family Foundation holdings — so they count as ONE economic buyer; insiderCount is 2 (Tannenbaum household + Hetzel). All three named buyers are officers/directors.",
+      "followThrough": {
+        "filingClose": 3.17,
+        "filingCloseDate": "2026-11-06",
+        "closeNov9": 3.43,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 8.2,
+        "plus10Date": null,
+        "plus10Close": null,
+        "plus10Pct": null,
+        "plus30Date": null,
+        "plus30Close": null,
+        "plus30Pct": null,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent"
+      },
+      "high90d": 3.62,
+      "pctDownFrom90dHigh": -12.43,
+      "dip20pct": false,
+      "marketCapUsd": 76956991,
+      "marketCapClass": "small",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($3.44). 22,403,782 shares (SEC EDGAR company facts, 10-Q filed Nov 5, 2026, period ended Nov 2, 2026).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "",
+      "officerCount": 3,
+      "officerNames": [
+        "Leonard M. Tannenbaum",
+        "Robyn Tannenbaum",
+        "Brandon Hetzel"
+      ],
+      "qualifiesSmallCapOfficer": true,
+      "priceNotes": "90-day high $3.62 on 2026-09-03. Yahoo chart API, cross-checked against Nasdaq historical API."
+    },
+    {
+      "ticker": "SHEN",
+      "company": "Shenandoah Telecommunications Co",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 19864,
+      "latestDate": "2026-11-06",
+      "window": "Nov 5 – Nov 6, 2026",
+      "buyers": [
+        {
+          "name": "Edward H. McKay",
+          "role": "President and CEO",
+          "amountUsd": 9843
+        },
+        {
+          "name": "Glenn E. Lytle Jr",
+          "role": "SVP Commercial Sales",
+          "amountUsd": 5050
+        },
+        {
+          "name": "Kenneth L. Quaglio",
+          "role": "Director",
+          "amountUsd": 4971
+        }
+      ],
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "",
+      "followThrough": {
+        "filingClose": 9.65,
+        "filingCloseDate": "2026-11-06",
+        "closeNov9": 10.21,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 5.8,
+        "plus10Date": null,
+        "plus10Close": null,
+        "plus10Pct": null,
+        "plus30Date": null,
+        "plus30Close": null,
+        "plus30Pct": null,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent"
+      },
+      "high90d": 13.43,
+      "pctDownFrom90dHigh": -28.15,
+      "dip20pct": true,
+      "marketCapUsd": 565283297,
+      "marketCapClass": "small",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($10.21). 55,365,651 shares (SEC EDGAR company facts, 10-Q filed Oct 28, 2026, period ended Oct 22, 2026).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "",
+      "officerCount": 3,
+      "officerNames": [
+        "Edward H. McKay",
+        "Glenn E. Lytle Jr",
+        "Kenneth L. Quaglio"
+      ],
+      "qualifiesSmallCapOfficer": true,
+      "priceNotes": "90-day high $13.43 on 2026-08-13. Yahoo chart API, cross-checked against Nasdaq historical API."
+    },
+    {
+      "ticker": "ATLO",
+      "company": "Ames National Corp",
+      "insiderCount": 3,
+      "tradeCount": 3,
+      "totalValueUsd": 11412,
+      "latestDate": "2026-11-06",
+      "window": "Oct 30 – Nov 6, 2026",
+      "buyers": [
+        {
+          "name": "Adam Snodgrass",
+          "role": "President of subsidiary bank",
+          "amountUsd": 6826
+        },
+        {
+          "name": "Scott T. Bauer",
+          "role": "President of subsidiary bank",
+          "amountUsd": 2970
+        },
+        {
+          "name": "Michelle R. Cassabaum",
+          "role": "Director",
+          "amountUsd": 1616
+        }
+      ],
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "",
+      "followThrough": {
+        "filingClose": 33.9,
+        "filingCloseDate": "2026-11-06",
+        "closeNov9": 34.23,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 0.97,
+        "plus10Date": null,
+        "plus10Close": null,
+        "plus10Pct": null,
+        "plus30Date": null,
+        "plus30Close": null,
+        "plus30Pct": null,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent"
+      },
+      "high90d": 34.9,
+      "pctDownFrom90dHigh": -2.87,
+      "dip20pct": false,
+      "marketCapUsd": 303182641,
+      "marketCapClass": "small",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($34.23). 8,857,220 shares (SEC EDGAR company facts, 10-Q filed Nov 6, 2026, period ended Oct 31, 2026).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "",
+      "officerCount": 3,
+      "officerNames": [
+        "Adam Snodgrass",
+        "Scott T. Bauer",
+        "Michelle R. Cassabaum"
+      ],
+      "qualifiesSmallCapOfficer": true,
+      "priceNotes": "90-day high $34.90 on 2026-11-04. Yahoo chart API, cross-checked against Nasdaq historical API."
+    },
+    {
+      "ticker": "TTMI",
+      "company": "TTM Technologies Inc",
+      "insiderCount": 3,
+      "tradeCount": 5,
+      "totalValueUsd": 2283952,
+      "latestDate": "2026-11-05",
+      "window": "Oct 28 – Nov 5, 2026",
+      "buyers": [
+        {
+          "name": "Wajid Ali",
+          "role": "Director",
+          "amountUsd": 1534002
+        },
+        {
+          "name": "Edwin Roks",
+          "role": "President and CEO",
+          "amountUsd": 440350
+        },
+        {
+          "name": "Philip G. Franklin",
+          "role": "Director",
+          "amountUsd": 309600
+        }
+      ],
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Ali bought twice: Oct 28 ($902K) and Nov 5 ($632K). The Nov 5 close of $62.22 was 56% below the 90-day high; the stock then rose 21% to $75.33 by Nov 9.",
+      "followThrough": {
+        "filingClose": 62.22,
+        "filingCloseDate": "2026-11-05",
+        "closeNov9": 75.33,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 21.07,
+        "plus10Date": null,
+        "plus10Close": null,
+        "plus10Pct": null,
+        "plus30Date": null,
+        "plus30Close": null,
+        "plus30Pct": null,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent"
+      },
+      "high90d": 140.98,
+      "pctDownFrom90dHigh": -55.87,
+      "dip20pct": true,
+      "marketCapUsd": 7937937922,
+      "marketCapClass": "mid",
+      "marketCapSource": "Shares outstanding x Nov 9, 2026 close ($75.33). 105,375,520 shares (SEC EDGAR company facts, 10-Q filed Oct 28, 2026, period ended Oct 23, 2026).",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "",
+      "officerCount": 3,
+      "officerNames": [
+        "Wajid Ali",
+        "Edwin Roks",
+        "Philip G. Franklin"
+      ],
+      "qualifiesSmallCapOfficer": false,
+      "priceNotes": "90-day high $140.98 on 2026-08-17. Yahoo chart API, cross-checked against Nasdaq historical API."
+    },
+    {
+      "ticker": "FLOC",
+      "company": "Flowco Holdings Inc.",
+      "insiderCount": 3,
+      "tradeCount": 4,
+      "totalValueUsd": 1104343,
+      "latestDate": "2026-11-05",
+      "window": "Nov 4 – Nov 5, 2026",
+      "buyers": [
+        {
+          "name": "Joseph R. Edwards",
+          "role": "President and CEO",
+          "amountUsd": 798213
+        },
+        {
+          "name": "Jonathan B. Fairbanks",
+          "role": "Director, 10% owner",
+          "amountUsd": 292924
+        },
+        {
+          "name": "Alexander Chmelev",
+          "role": "Director",
+          "amountUsd": 13206
+        }
+      ],
+      "source": "XOOMAR — SEC EDGAR Form 4 tracker",
+      "sourceUrl": "https://staging.xoomar.com/markets/insiders",
+      "note": "Fairbanks buys through GEC funds he controls and is a director by deputization; his purchase is his own, not shared with Edwards or Chmelev (Form 4 remarks checked).",
+      "followThrough": {
+        "filingClose": 19.05,
+        "filingCloseDate": "2026-11-05",
+        "closeNov9": 20.85,
+        "closeNov9Date": "2026-11-09",
+        "pctChangeToNov9": 9.45,
+        "plus10Date": null,
+        "plus10Close": null,
+        "plus10Pct": null,
+        "plus30Date": null,
+        "plus30Close": null,
+        "plus30Pct": null,
+        "followThroughAsOf": "2026-11-09",
+        "priceSource": "Yahoo Finance chart API (query1.finance.yahoo.com/v8/finance/chart), cross-checked against Nasdaq historical API (api.nasdaq.com/api/quote/{ticker}/historical) — filing close and Nov 9 close matched to the cent"
+      },
+      "high90d": 23.73,
+      "pctDownFrom90dHigh": -19.72,
+      "dip20pct": false,
+      "marketCapUsd": 924974784,
+      "marketCapClass": "small",
+      "marketCapSource": "Weighted-average shares outstanding x Nov 9, 2026 close ($20.85). 44,363,299 shares (SEC EDGAR company facts, 10-Q for Q3 ended Sep 30, 2026); no period-end share count published.",
+      "marketCapAsOf": "2026-11-09",
+      "marketCapNote": "",
+      "officerCount": 3,
+      "officerNames": [
+        "Joseph R. Edwards",
+        "Jonathan B. Fairbanks",
+        "Alexander Chmelev"
+      ],
+      "qualifiesSmallCapOfficer": true,
+      "priceNotes": "90-day high $23.73 on 2026-08-14. Yahoo chart API, cross-checked against Nasdaq historical API."
     }
   ],
   "followThrough": {
-    "asOf": "2026-11-06",
-    "up": 12,
-    "down": 16,
-    "medianPct": -0.48,
-    "meanPct": 1.72,
+    "asOf": "2026-11-09",
+    "up": 22,
+    "down": 10,
+    "medianPct": 1.13,
+    "meanPct": 4.18,
     "best": {
       "ticker": "NVA",
-      "pct": 44.97
+      "pct": 48.32
     },
     "worst": {
       "ticker": "LBRT",
-      "pct": -19.24
+      "pct": -12.69
     },
-    "plus10Elapsed": 9,
-    "plus10Up": 7,
-    "plus10Down": 2,
-    "plus30Elapsed": 0,
-    "plus30Note": "No +30-day window had closed by Nov 6, 2026 (earliest is HEI on Nov 7). All +30-day returns are marked not yet elapsed.",
-    "note": "Tiny sample (28 clusters) over days, not months. This is tracking, not a prediction. A cluster can be up or down for reasons that have nothing to do with the insider buys."
+    "plus10Elapsed": 14,
+    "plus10Up": 11,
+    "plus10Down": 3,
+    "plus30Elapsed": 1,
+    "plus30Note": "The first +30-day window closed Nov 9, 2026 (HEI, +15.82%).",
+    "note": "Tiny sample (34 clusters) over days, not months. This is tracking, not a prediction. A cluster can be up or down for reasons that have nothing to do with the insider buys."
   },
   "filteredView": {
     "name": "Small-cap, officer-only clusters",
-    "definition": "Market cap under $2B (as of Nov 6, 2026) AND at least 2 named buyers who are natural-person officers or directors (CEO, CFO, President, EVP/SVP, Director, Chairman). Fund/10% owner entities, trustees, portfolio managers and \"See remarks\" buyers do not count.",
+    "definition": "Market cap under $2B (as of Nov 9, 2026) AND at least 2 named buyers who are natural-person officers or directors (CEO, CFO, President, EVP/SVP, Director, Chairman). Fund/10% owner entities, trustees, portfolio managers and \"See remarks\" buyers do not count.",
     "qualifyingTickers": [
+      "AFCG",
+      "ATLO",
       "BPRE",
-      "CHCO",
-      "LBRT",
+      "FLOC",
       "NPB",
       "NVA",
       "OCFC",
       "RAPP",
+      "SHEN",
       "STC",
       "STRZ",
       "SYNX",
@@ -1781,5 +2184,5 @@
       "UPBD"
     ]
   },
-  "dataAsOf": "2026-11-06"
+  "dataAsOf": "2026-11-09"
 }

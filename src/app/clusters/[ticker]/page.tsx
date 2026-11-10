@@ -36,8 +36,8 @@ export default function ClusterPage({ params }: { params: { ticker: string } }) 
       <p>
         Filing-date close ({formatDate(c.followThrough.filingCloseDate)}):{" "}
         {c.followThrough.filingClose !== null ? `$${c.followThrough.filingClose.toFixed(2)}` : "unknown"} ·{" "}
-        Nov 6, 2026 close: {c.followThrough.closeNov6 !== null ? `$${c.followThrough.closeNov6.toFixed(2)}` : "unknown"} ·{" "}
-        <strong>since filing: {formatPct(c.followThrough.pctChangeToNov6)}</strong>
+        Nov 9, 2026 close: {c.followThrough.closeNov9 !== null ? `$${c.followThrough.closeNov9.toFixed(2)}` : "unknown"} ·{" "}
+        <strong>since filing: {formatPct(c.followThrough.pctChangeToNov9)}</strong>
       </p>
       <p>
         +10 days: {c.followThrough.plus10Pct !== null
@@ -49,7 +49,7 @@ export default function ClusterPage({ params }: { params: { ticker: string } }) 
       </p>
       <p className="muted">
         Prices: {c.followThrough.priceSource}. Follow-through is measured from the filing-date close to the first
-        trading day on or after filing +10 / +30 calendar days, and to the Nov 6, 2026 close. 90-day high:{" "}
+        trading day on or after filing +10 / +30 calendar days, and to the Nov 9, 2026 close. 90-day high:{" "}
         {c.high90d !== null ? `$${c.high90d.toFixed(2)}` : "unknown"}; the stock was{" "}
         {c.pctDownFrom90dHigh !== null ? `${Math.abs(c.pctDownFrom90dHigh).toFixed(2)}% below` : "an unknown amount below"} that high at filing.
         This is tracking, not a prediction — a few days of price movement proves nothing on its own.

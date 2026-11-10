@@ -27,7 +27,7 @@ export default function Home() {
       if (sort === "insiders") return b.insiderCount - a.insiderCount || b.totalValueUsd - a.totalValueUsd;
       if (sort === "recent") return b.latestDate.localeCompare(a.latestDate);
       if (sort === "follow")
-        return (b.followThrough.pctChangeToNov6 ?? -999) - (a.followThrough.pctChangeToNov6 ?? -999);
+        return (b.followThrough.pctChangeToNov9 ?? -999) - (a.followThrough.pctChangeToNov9 ?? -999);
       return b.totalValueUsd - a.totalValueUsd;
     });
     const query = q.trim().toLowerCase();
@@ -65,21 +65,21 @@ export default function Home() {
       <p>{DEFINITION}</p>
       <p className="muted">
         {CLUSTERS.length} clusters · {totalBuyers} insiders buying · {formatMoney(totalValue)} combined ·
-        data as of {DATA_AS_OF}, newest filing Nov 6, 2026. Sources: XOOMAR, InsiderPrint and KeyVex — each cluster links its source.
+        data as of {DATA_AS_OF}, newest filing Nov 10, 2026. Sources: XOOMAR, InsiderPrint and KeyVex — each cluster links its source.
       </p>
 
       <h2>What happened next</h2>
       <p>
-        Since the filing, to the Nov 6, 2026 close: <strong>{FOLLOW_THROUGH.up} up, {FOLLOW_THROUGH.down} down</strong> out
+        Since the filing, to the Nov 9, 2026 close: <strong>{FOLLOW_THROUGH.up} up, {FOLLOW_THROUGH.down} down</strong> out
         of {CLUSTERS.length}. Median {formatPct(FOLLOW_THROUGH.medianPct)}, mean {formatPct(FOLLOW_THROUGH.meanPct)}.
         Best so far {FOLLOW_THROUGH.best.ticker} {formatPct(FOLLOW_THROUGH.best.pct)}, worst {FOLLOW_THROUGH.worst.ticker} {formatPct(FOLLOW_THROUGH.worst.pct)}.
       </p>
       <p>
         +10 days after filing: <strong>{FOLLOW_THROUGH.plus10Up} up, {FOLLOW_THROUGH.plus10Down} down</strong> of{" "}
-        {FOLLOW_THROUGH.plus10Elapsed} clusters whose 10-day window had closed by Nov 6. +30 days:{" "}
-        <strong>none elapsed yet</strong> — {FOLLOW_THROUGH.plus30Note}
+        {FOLLOW_THROUGH.plus10Elapsed} clusters whose 10-day window had closed by Nov 9. +30 days:{" "}
+        <strong>{FOLLOW_THROUGH.plus30Elapsed} elapsed</strong> — {FOLLOW_THROUGH.plus30Note}
       </p>
-      <p className="muted">{FOLLOW_THROUGH.note} Prices: Yahoo Finance chart API, cross-checked against Nasdaq historical data. Follow-through is measured from the filing-date close to the Nov 6 close, and from the filing-date close to the first trading day on or after filing +10 / +30 calendar days.</p>
+      <p className="muted">{FOLLOW_THROUGH.note} Prices: Yahoo Finance chart API, cross-checked against Nasdaq historical data. Follow-through is measured from the filing-date close to the Nov 9 close, and from the filing-date close to the first trading day on or after filing +10 / +30 calendar days.</p>
 
       <h2>{FILTERED_VIEW.name}</h2>
       <p>{FILTERED_VIEW.definition}</p>
@@ -125,7 +125,7 @@ export default function Home() {
             <span className="pill">{c.insiderCount} insiders</span>
             {c.tradeCount ? <span className="pill">{c.tradeCount} trades</span> : null}
             <span className="pill">latest {formatDate(c.latestDate)}</span>
-            <span className="pill">since filing: {formatPct(c.followThrough.pctChangeToNov6)}</span>
+            <span className="pill">since filing: {formatPct(c.followThrough.pctChangeToNov9)}</span>
             <span className="pill">cap {formatCap(c.marketCapUsd)} ({c.marketCapClass})</span>
             <span className="pill">{c.officerCount} officer/director buyers</span>
             {c.dip20pct === true ? <span className="pill">bought after a 20%+ dip</span> : null}

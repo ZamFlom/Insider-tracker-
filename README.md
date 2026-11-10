@@ -14,56 +14,59 @@ This is educational research, not investment advice.
 
 ## Data — read this before trusting a number
 
-- **Seeded Nov 9, 2026. 28 clusters, 98 named insider buyers, $213.2M combined cluster value.**
-- **Primary source:** XOOMAR cluster table, SEC EDGAR Form 4 filings, as of Nov 6, 2026 —
-  https://staging.xoomar.com/markets/insiders (25 of the 28 clusters).
+- **Seeded Nov 9, 2026; updated daily. 34 clusters, 123 named insider buyers, $230.4M combined cluster value (as of Nov 10, 2026).**
+- **Primary source:** XOOMAR cluster table, SEC EDGAR Form 4 filings, as of Nov 10, 2026 —
+  https://staging.xoomar.com/markets/insiders (27 of the 34 clusters).
 - **Extra clusters:** HEI from InsiderPrint (https://www.insiderprint.com/cluster-buys);
   LRN and PAM from KeyVex (https://keyvex.com/insiders, updated Nov 9, 2026).
 - Every cluster in `src/data/clusters.json` cites its own source and source URL.
 
 ## What happened next (follow-through, added Nov 9, 2026)
 
-- For every cluster: filing-date close, Nov 6, 2026 close, % change since filing,
+- For every cluster: filing-date close, Nov 9, 2026 close, % change since filing,
   +10-day and +30-day returns (first trading day on or after filing +10 / +30
-  calendar days). **Result to Nov 6: 12 up, 16 down, median −0.48%, mean +1.72%.**
-  +10 days: 7 up, 2 down of the 9 clusters whose window had closed. +30 days: none
-  had elapsed by Nov 6 (earliest is HEI, Nov 7) — all marked "not yet elapsed".
+  calendar days). **Result to Nov 9: 22 up, 10 down (2 flat), median +1.13%, mean +4.18%.**
+  +10 days: 11 up, 3 down of the 14 clusters whose window had closed. +30 days: the
+  first window closed Nov 9 (HEI, +15.82%).
 - Prices: Yahoo Finance chart API, cross-checked against Nasdaq historical data
-  (filing and Nov 6 closes agreed to the cent). Stooq was unreachable from this VM.
+  (filing and Nov 9 closes agreed to the cent). Stooq was unreachable from this VM.
 - This is a tiny sample over days, not months. It is tracking, not a prediction.
 
 ## The niche: small-cap, officer-only clusters (added Nov 9, 2026)
 
-- Definition: market cap under $2B (as of Nov 6, 2026) AND at least 2 named buyers
+- Definition: market cap under $2B (as of Nov 9, 2026) AND at least 2 named buyers
   who are natural-person officers/directors (CEO, CFO, President, EVP/SVP,
   Director, Chairman). Fund/10% owner entities, trustees, portfolio managers and
   "See remarks" buyers do not count.
-- **14 of 28 clusters qualify** and are the default home view: BPRE, CHCO, LBRT,
-  NPB, NVA, OCFC, RAPP, STC, STRZ, SYNX, TBBK, TRTX, UMH, UPBD.
-- Market caps are shares outstanding x Nov 6 close, or a Nasdaq quoted cap, cited
-  per cluster. Two are borderline: CHCO ($1.99B, other sources $2.04B) and LBRT
-  ($1.95B, Nasdaq quoted $2.004B at the Nov 9 pre-market price) — both flagged
-  on their cluster pages. ASPE and BBTX are recent IPOs (first traded Oct 30,
+- **16 of 34 clusters qualify** and are the default home view: AFCG, ATLO, BPRE,
+  FLOC, NPB, NVA, OCFC, RAPP, SHEN, STC, STRZ, SYNX, TBBK, TRTX, UMH, UPBD.
+- Market caps are shares outstanding x Nov 9 close (SEC EDGAR company facts), or a
+  Nasdaq quoted cap where no fresh share count was available, cited per cluster.
+  CHCO and LBRT crossed the $2B line on the Nov 9 close ($2.01B and $2.11B, from
+  $1.99B and $1.95B at Nov 6) and left the small-cap view; TBBK sits just under
+  it at $1.99B. ASPE and BBTX are recent IPOs (first traded Oct 30,
   2026), so no 90-day high exists for them — dip is "unknown", not guessed.
 - Dip flag: filing close 20%+ below the 90-day high (highest daily close in the
-  90 calendar days before filing). 11 of 28 clusters were bought after a 20%+ dip.
-- **Per-buyer amounts are included only where InsiderPrint published them.** Everywhere else
-  the amount is null and the site shows "Not broken out in source" — never guessed.
+  90 calendar days before filing). 13 of 34 clusters were bought after a 20%+ dip.
+- **Per-buyer amounts come from XOOMAR's SEC Form 4 data** (InsiderPrint's split
+  was used for the seed and differs for AN, ASPE and BBTX, where related-entity
+  double-counting is involved). Amounts are null where the source does not break
+  them out — never guessed.
 - **Totals differ between trackers.** Different trackers count related entities (e.g. a director
   plus their fund's GP/LP entities) and share classes (HEI vs HEI.A) differently. Examples in
   this data set: ASPE is $68.0M on InsiderPrint vs $53.0M on XOOMAR; BBTX is $58.6M vs $52.6M.
   Each cluster page names its source and notes the discrepancy where it matters. LRN's
   Haggart/Fivespan entities are related filings for one economic buyer; PAM's three buyers
   are members of the same family. Those notes are on the cluster pages.
-- Newest filing in this seed set: Nov 6, 2026. The data is a snapshot, not a live feed.
-  A live SEC feed is a follow-up job — see `scripts/daily-update.mjs`, which
-  documents the EDGAR pull, the code-P filter, the cluster rule and the
-  follow-through fields. It is NOT automated on Vercel yet; no cron is connected.
+- Newest filing in this set: Nov 10, 2026 (LBTY). The data is updated by the daily
+  run — see `scripts/daily-update.mjs`, which documents the EDGAR pull, the code-P
+  filter, the cluster rule and the follow-through fields. It is NOT automated on
+  Vercel yet; no cron is connected.
 
 ## What works now
 
 - Home page: "What happened next" follow-through summary, default view is the
-  14 small-cap officer-only clusters (toggle to all 28), ranked by value /
+  16 small-cap officer-only clusters (toggle to all 34), ranked by value /
   insiders / recency / best since filing, search by ticker, company or insider.
 - Company page per ticker: `/clusters/RAPP` etc., with buyers, roles, amounts, source link,
   plus follow-through prices, market cap, dip flag and officer count.
