@@ -43,7 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             purchases (code P) as reported by the tracker linked on each cluster. Insiders
             buy for many reasons; a cluster is a reason to research a stock, not a buy signal.
           </p>
-          <p>Data as of Nov 10, 2026. Newest filing in this set: Nov 10, 2026.</p>
+          <p>Data as of Nov 11, 2026. Newest filing in this set: Nov 10, 2026.</p>
         </footer>
       </body>
     </html>

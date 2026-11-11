@@ -4,9 +4,9 @@ export type Buyer = { name: string; role: string; amountUsd: number | null };
 export type FollowThrough = {
   filingClose: number | null;
   filingCloseDate: string;
-  closeNov9: number | null;
-  closeNov9Date: string;
-  pctChangeToNov9: number | null;
+  closeNov10: number | null;
+  closeNov10Date: string;
+  pctChangeToNov10: number | null;
   plus10Date: string | null;
   plus10Close: number | null;
   plus10Pct: number | null;
