@@ -27,7 +27,7 @@ export default function Home() {
       if (sort === "insiders") return b.insiderCount - a.insiderCount || b.totalValueUsd - a.totalValueUsd;
       if (sort === "recent") return b.latestDate.localeCompare(a.latestDate);
       if (sort === "follow")
-        return (b.followThrough.pctChangeToNov10 ?? -999) - (a.followThrough.pctChangeToNov10 ?? -999);
+        return (b.followThrough.pctChangeToNov11 ?? -999) - (a.followThrough.pctChangeToNov11 ?? -999);
       return b.totalValueUsd - a.totalValueUsd;
     });
     const query = q.trim().toLowerCase();
@@ -70,16 +70,16 @@ export default function Home() {
 
       <h2>What happened next</h2>
       <p>
-        Since the filing, to the Nov 10, 2026 close: <strong>{FOLLOW_THROUGH.up} up, {FOLLOW_THROUGH.down} down</strong> out
+        Since the filing, to the Nov 11, 2026 close: <strong>{FOLLOW_THROUGH.up} up, {FOLLOW_THROUGH.down} down</strong> out
         of {CLUSTERS.length}. Median {formatPct(FOLLOW_THROUGH.medianPct)}, mean {formatPct(FOLLOW_THROUGH.meanPct)}.
         Best so far {FOLLOW_THROUGH.best.ticker} {formatPct(FOLLOW_THROUGH.best.pct)}, worst {FOLLOW_THROUGH.worst.ticker} {formatPct(FOLLOW_THROUGH.worst.pct)}.
       </p>
       <p>
         +10 days after filing: <strong>{FOLLOW_THROUGH.plus10Up} up, {FOLLOW_THROUGH.plus10Down} down</strong> of{" "}
-        {FOLLOW_THROUGH.plus10Elapsed} clusters whose 10-day window had closed by Nov 10. +30 days:{" "}
+        {FOLLOW_THROUGH.plus10Elapsed} clusters whose 10-day window had closed by Nov 11. +30 days:{" "}
         <strong>{FOLLOW_THROUGH.plus30Elapsed} elapsed</strong> — {FOLLOW_THROUGH.plus30Note}
       </p>
-      <p className="muted">{FOLLOW_THROUGH.note} Prices: Yahoo Finance chart API, cross-checked against Nasdaq historical data. Follow-through is measured from the filing-date close to the Nov 10 close, and from the filing-date close to the first trading day on or after filing +10 / +30 calendar days.</p>
+      <p className="muted">{FOLLOW_THROUGH.note} Prices: Yahoo Finance chart API, cross-checked against Nasdaq historical data. Follow-through is measured from the filing-date close to the Nov 11 close, and from the filing-date close to the first trading day on or after filing +10 / +30 calendar days.</p>
 
       <h2>{FILTERED_VIEW.name}</h2>
       <p>{FILTERED_VIEW.definition}</p>
@@ -125,7 +125,7 @@ export default function Home() {
             <span className="pill">{c.insiderCount} insiders</span>
             {c.tradeCount ? <span className="pill">{c.tradeCount} trades</span> : null}
             <span className="pill">latest {formatDate(c.latestDate)}</span>
-            <span className="pill">since filing: {formatPct(c.followThrough.pctChangeToNov10)}</span>
+            <span className="pill">since filing: {formatPct(c.followThrough.pctChangeToNov11)}</span>
             <span className="pill">cap {formatCap(c.marketCapUsd)} ({c.marketCapClass})</span>
             <span className="pill">{c.officerCount} officer/director buyers</span>
             {c.dip20pct === true ? <span className="pill">bought after a 20%+ dip</span> : null}

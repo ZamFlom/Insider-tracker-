@@ -14,8 +14,8 @@ This is educational research, not investment advice.
 
 ## Data — read this before trusting a number
 
-- **Seeded Nov 9, 2026; updated daily. 37 clusters, 136 named insider buyers, $246.7M combined cluster value (as of Nov 11, 2026).**
-- **Primary source:** XOOMAR cluster table, SEC EDGAR Form 4 filings, as of Nov 11, 2026 —
+- **Seeded Nov 9, 2026; updated daily. 37 clusters, 136 named insider buyers, $246.7M combined cluster value (as of Nov 12, 2026).**
+- **Primary source:** XOOMAR cluster table, SEC EDGAR Form 4 filings, as of Nov 12, 2026 —
   https://staging.xoomar.com/markets/insiders (30 of the 37 clusters).
 - **Extra clusters:** HEI from InsiderPrint (https://www.insiderprint.com/cluster-buys);
   LRN and PAM from KeyVex (https://keyvex.com/insiders, updated Nov 9, 2026).
@@ -23,24 +23,24 @@ This is educational research, not investment advice.
 
 ## What happened next (follow-through, added Nov 9, 2026)
 
-- For every cluster: filing-date close, Nov 10, 2026 close, % change since filing,
+- For every cluster: filing-date close, Nov 11, 2026 close, % change since filing,
   +10-day and +30-day returns (first trading day on or after filing +10 / +30
-  calendar days). **Result to Nov 10: 22 up, 13 down (2 flat), median +0.74%, mean +3.07%.**
+  calendar days). **Result to Nov 11: 27 up, 10 down, median +2.68%, mean +4.90%.**
   +10 days: 11 up, 3 down of the 14 clusters whose window had closed. +30 days: the
   first window closed Nov 9 (HEI, +15.82%).
 - Prices: Yahoo Finance chart API, cross-checked against Nasdaq historical data
-  (filing and Nov 10 closes agreed to the cent). Stooq was unreachable from this VM.
+  (filing and Nov 11 closes agreed to the cent). Stooq was unreachable from this VM.
 - This is a tiny sample over days, not months. It is tracking, not a prediction.
 
 ## The niche: small-cap, officer-only clusters (added Nov 9, 2026)
 
-- Definition: market cap under $2B (as of Nov 10, 2026) AND at least 2 named buyers
+- Definition: market cap under $2B (as of Nov 11, 2026) AND at least 2 named buyers
   who are natural-person officers/directors (CEO, CFO, President, EVP/SVP,
   Director, Chairman). Fund/10% owner entities, trustees, portfolio managers and
   "See remarks" buyers do not count.
 - **19 of 37 clusters qualify** and are the default home view: AFCG, ATLO, BPRE,
   DTI, FLOC, FUN, NPB, NVA, OCFC, RAPP, SHEN, SLQT, STC, STRZ, SYNX, TBBK, TRTX, UMH, UPBD.
-- Market caps are shares outstanding x Nov 10 close (SEC EDGAR company facts), or a
+- Market caps are shares outstanding x Nov 11 close (SEC EDGAR company facts), or a
   Nasdaq quoted cap where no fresh share count was available, cited per cluster.
   CHCO and LBRT crossed the $2B line on the Nov 9 close ($2.01B and $2.11B, from
   $1.99B and $1.95B at Nov 6) and left the small-cap view; TBBK sits just under
